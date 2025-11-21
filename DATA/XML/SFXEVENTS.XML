@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<SFXEvents>
+	<SFXEvent Name="Test_Ambient_Wind_Event">
+		<Samples>Wind_Gust_1_Stereo.wav Wind_Gust_2_Stereo.wav Wind_Gust_3_Stereo.wav</Samples>
+		<Use_Preset>Preset_EGL</Use_Preset>
+		<Probability>100</Probability>
+		<Play_Count>1</Play_Count>
+		<Max_Instances>2</Max_Instances>
+		<Min_Pitch>90</Min_Pitch>
+		<Max_Pitch>120</Max_Pitch>
+		<Min_Volume>40</Min_Volume>
+		<Max_Volume>40</Max_Volume>
+	</SFXEvent>
+	<SFXEvent Name="Test_Ambient_Intermittent">
+		<Samples>Bad_Sound.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Static_On">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Static_On.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Static_Off">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Static_Off.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Expansion_Test">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>GUN_X_Wing_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_UMP_TyberFreePrisoner">
+		<Use_Preset>Preset_HERO</Use_Preset>
+		<Samples>Placement.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_UMP_EmpireDropshipsArriving">
+		<Use_Preset>Preset_HERO</Use_Preset>
+		<Samples>GUN_X_Wing_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_UMP_EmpireKesselAlarm">
+		<Use_Preset>Preset_HERO</Use_Preset>
+		<Samples>Orbital_Alarm_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_Crate_Pickup">
+		<Use_Preset>Preset_BDS</Use_Preset>
+		<Samples>BDS_Crate_Pickup_2.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_UM02_MagneticSealedDoor">
+		<Use_Preset>Preset_HERO</Use_Preset>
+		<Samples>Orbital_Alarm_1.wav GUN_Rebel_Ricochet_1.wav GUN_Rebel_Ricochet_2.wav GUN_Rebel_Ricochet_3.wav GUN_Empire_Ricochet_1.wav GUN_Empire_Ricochet_2.wav GUN_Empire_Ricochet_3.wav GUN_Empire_Ricochet_4.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Stealth">
+		<Use_Preset>Preset_EXPC</Use_Preset>
+		<Samples>Cloaking_3.wav</Samples>
+		<Max_Instances>1</Max_Instances>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Cloaking">
+		<Use_Preset>Preset_EXPC</Use_Preset>
+		<Samples>Cloaking_2.wav</Samples>
+		<Max_Instances>1</Max_Instances>
+	</SFXEvent>
+	<SFXEvent Name="SFX_Stealth_Reveal">
+		<Use_Preset>Preset_EXPC</Use_Preset>
+		<Samples>Cloaking_Reveal_1.wav</Samples>
+		<Max_Instances>2</Max_Instances>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Random_Mouse_Droid">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Mouse_Droid_1.wav Mouse_Droid_2.wav Mouse_Droid_3.wav Mouse_Droid_4.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Panic_Mouse_Droid">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Mouse_Droid_Panic_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Riot_Infantry_Loop">
+		<Use_Preset>Preset_BDL</Use_Preset>
+		<Samples>AMB_Riot_Loop_2.wav</Samples>
+		<Max_Instances>2</Max_Instances>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>80</Max_Volume>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Riot_Infantry_Loop_Low">
+		<Use_Preset>Preset_BDL</Use_Preset>
+		<Samples>AMB_Riot_Loop_Low_1.wav</Samples>
+		<Max_Instances>2</Max_Instances>
+		<Min_Volume>60</Min_Volume>
+		<Max_Volume>60</Max_Volume>
+	</SFXEvent>
+</SFXEvents>

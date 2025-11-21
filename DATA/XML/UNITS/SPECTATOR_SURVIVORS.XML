@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<Data>
+<!-- Despawners For Spectator Upgrades -->
+	<GroundInfantry Name="Spectator_Despawn_R_Barracks_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Rebel_Trooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_R_Barracks</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_R_LightFactory_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Rebel_Trooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_R_LightFactory</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_R_HeavyFactory_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Rebel_Trooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_R_HeavyFactory</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_R_CommandCenter_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Rebel_Trooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_R_CommandCenter</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_R_ResearchFacility_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Rebel_Trooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_R_ResearchFacility</Lua_Script>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Rebel_Survivors_Small_Barracks">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_Barracks_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Medium_Barracks">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_Barracks_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Large_Barracks">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_Barracks_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	
+	<GroundCompany Name="Rebel_Survivors_Small_LightFactory">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_LightFactory_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Medium_LightFactory">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_LightFactory_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Large_LightFactory">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_LightFactory_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	
+	<GroundCompany Name="Rebel_Survivors_Small_HeavyFactory">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_HeavyFactory_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Medium_HeavyFactory">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_HeavyFactory_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Large_HeavyFactory">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_HeavyFactory_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Rebel_Survivors_Large_CommandCenter">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_CommandCenter_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Rebel_Survivors_Small_ResearchFacility">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_ResearchFacility_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Medium_ResearchFacility">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_ResearchFacility_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Rebel_Survivors_Large_ResearchFacility">
+		<Variant_Of_Existing_Type>Rebel_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_R_ResearchFacility_Upgrades, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+	</GroundCompany>
+	
+	<GroundInfantry Name="Spectator_Despawn_E_Barracks_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_E_Barracks</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_E_LightFactory_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_E_LightFactory</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_E_HeavyFactory_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_E_HeavyFactory</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_E_CommandCenter_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_E_CommandCenter</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_E_ResearchFacility_Upgrades">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_E_ResearchFacility</Lua_Script>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Empire_Survivors_Small_Barracks">
+		<Variant_Of_Existing_Type>Empire_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_Barracks_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Medium_Barracks">
+		<Variant_Of_Existing_Type>Empire_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_Barracks_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Large_Barracks">
+		<Variant_Of_Existing_Type>Empire_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_Barracks_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Empire_Survivors_Small_LightFactory">
+		<Variant_Of_Existing_Type>Empire_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_LightFactory_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Medium_LightFactory">
+		<Variant_Of_Existing_Type>Empire_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_LightFactory_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Large_LightFactory">
+		<Variant_Of_Existing_Type>Empire_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_LightFactory_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Empire_Survivors_Small_HeavyFactory">
+		<Variant_Of_Existing_Type>Empire_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_HeavyFactory_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Medium_HeavyFactory">
+		<Variant_Of_Existing_Type>Empire_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_HeavyFactory_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Large_HeavyFactory">
+		<Variant_Of_Existing_Type>Empire_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_HeavyFactory_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Empire_Survivors_Large_CommandCenter">
+		<Variant_Of_Existing_Type>Empire_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_CommandCenter_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Empire_Survivors_Small_ResearchFacility">
+		<Variant_Of_Existing_Type>Empire_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_ResearchFacility_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Medium_ResearchFacility">
+		<Variant_Of_Existing_Type>Empire_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_ResearchFacility_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Empire_Survivors_Large_ResearchFacility">
+		<Variant_Of_Existing_Type>Empire_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_E_ResearchFacility_Upgrades, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+	</GroundCompany>
+	
+	<GroundInfantry Name="Spectator_Despawn_U_Barracks_Upgrades">
+		<Variant_Of_Existing_Type>Underworld_Merc</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_U_Barracks</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_U_DroidWorks_Upgrades">
+		<Variant_Of_Existing_Type>Underworld_Merc</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_U_DroidWorks</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_U_Factory_Upgrades">
+		<Variant_Of_Existing_Type>Underworld_Merc</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_U_Factory</Lua_Script>
+	</GroundInfantry>
+	<GroundInfantry Name="Spectator_Despawn_U_CommandCenter_Upgrades">
+		<Variant_Of_Existing_Type>Underworld_Merc</Variant_Of_Existing_Type>
+		<Lua_Script>Despawn_Spectator_Upgrades_U_CommandCenter</Lua_Script>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Underworld_Survivors_Small_Barracks">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_Barracks_Upgrades, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Underworld_Survivors_Medium_Barracks">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_Barracks_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Underworld_Survivors_Large_Barracks">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_Barracks_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Underworld_Survivors_Small_DroidWorks">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_DroidWorks_Upgrades, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Underworld_Survivors_Medium_DroidWorks">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_DroidWorks_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Underworld_Survivors_Large_DroidWorks">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_DroidWorks_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Underworld_Survivors_Small_Factory">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Small</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_Factory_Upgrades, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Underworld_Survivors_Medium_Factory">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Medium</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_Factory_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	<GroundCompany Name="Underworld_Survivors_Large_Factory">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_Factory_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Underworld_Survivors_Large_CommandCenter">
+		<Variant_Of_Existing_Type>Underworld_Survivors_Large</Variant_Of_Existing_Type>
+		<Company_Units>Spectator_Despawn_U_CommandCenter_Upgrades, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+	</GroundCompany>
+	
+</Data>
+

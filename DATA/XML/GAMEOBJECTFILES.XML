@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Game_Object_Files>
+	<File>Units\Transport_Units.xml</File>
+
+	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>Ground_Bases.xml</File>
+	<File>Ground_Turrets.xml</File>
+	<File>Ground_Structures.xml</File>
+	<File>Ground_SpecialStructures.xml</File>
+	<File>Ground_Buildable_Turrets.xml</File>
+	<File>Ground_Buildable_SpecialStructures.xml</File>
+	<File>Units\Ground_Bombers.xml</File>
+	<File>Units\Ground_Infantry.xml</File>
+	<File>Units\Ground_Vehicles.xml</File>
+	<File>Units\Ground_Companies.xml</File>
+	<File>Units\Ground_Indigenous.xml</File>
+	<File>Units\Ground_Indigenous_Companies.xml</File>
+	<File>Units\Mobile_Defense_Units.xml</File>
+
+	<File>Space_StarBases.xml</File>
+	<File>Space_SpecialStructures.xml</File>
+	<File>Space_Buildables.xml</File>
+	<File>Units\Space_Supers.xml</File>
+	<File>Units\Space_Capitals.xml</File>
+	<File>Units\Space_Frigates.xml</File>
+	<File>Units\Space_Corvettes.xml</File>
+	<File>Units\Space_Fighters.xml</File>
+	<File>Units\Space_Squadrons.xml</File>
+
+	<File>Units\Heroes_Minor.xml</File>
+	<File>Units\Heroes_Major.xml</File>
+	<File>Units\Hero_Companies.xml</File>
+	<File>Units\Unique_Units.xml</File>
+	<File>Units\Spectator_Survivors.xml</File>
+
+	<File>Units\Corruption_Special_Units.XML</File>
+
+	<File>Units\Hutt_Faction_Units.xml</File>
+
+	<File>Units\Containers.xml</File>
+
+	<File>SecondaryStructures.xml</File>
+
+	<File>Skydomes_Land_Primary.xml</File>
+	<File>Skydomes_Land_Secondary.xml</File>
+	<File>Skydomes_Space_Primary.xml</File>
+	<File>Skydomes_Space_Secondary.xml</File>
+
+	<File>Props_Temperate.xml</File>
+	<File>Props_Swamp.xml</File>
+	<File>Props_Volcanic.xml</File>
+	<File>Props_Forest.xml</File>
+	<File>Props_Felucia.xml</File>
+	<File>Props_Snow.xml</File>
+	<File>Props_Desert.xml</File>
+	<File>Props_Urban.xml</File>
+	<File>Props_Generic.xml</File>
+	<File>Props_Story.xml</File>
+	<File>Space_Props.xml</File>
+
+	<File>Planets.xml</File>
+
+	<File>Projectiles_Land.xml</File>
+	<File>Projectiles_Space.xml</File>
+
+	<File>SpecialEffects.xml</File>
+	<File>Particles.xml</File>
+
+	<File>Markers.xml</File>
+	<File>ScriptMarkers.xml</File>
+	<File>Multiplayer_Structure_Markers.XML</File>
+
+	<File>UpgradeObjects_Land.xml</File>
+	<File>UpgradeObjects_Spectator_Land.xml</File>
+	<File>UpgradeObjects_Space.xml</File>
+	<File>UpgradeObjects_Spectator_Space.xml</File>
+	<File>UpgradeObjects_Galactic.xml</File>
+	<File>MiscObjects.xml</File>
+
+	<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsFighters.xml</File>
+	<File>CIN_SpaceUnitsCorvettes.xml</File>
+	<File>CIN_SpaceUnitsFrigates.xml</File>
+	<File>CIN_GroundInfantry.xml</File>
+	<File>CIN_GroundVehicles.xml</File>
+	<File>CIN_SpaceProps.xml</File>
+	<File>CIN_TransportUnits.xml</File>
+	<File>CIN_Projectiles.xml</File>
+	<File>CIN_GroundProps.xml</File>
+	<File>CIN_GroundTurrets.xml</File>
+
+	<File>MOV_Cinematics.xml</File>
+</Game_Object_Files>
+
+

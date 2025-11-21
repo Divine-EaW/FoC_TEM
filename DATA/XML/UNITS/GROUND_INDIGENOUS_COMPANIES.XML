@@ -1,0 +1,882 @@
+<?xml version="1.0"?>
+<Indigenous_Companies>
+	
+	
+<!-- INDIGENOUS GROUND COMPANIES -->
+	
+	
+	<GroundCompany Name="Endor_Ewok_Hunting_Party">
+		<Text_ID>TEXT_INDIGENOUS_EWOK_PARTY</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_Ewok.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets>Endor</Required_Planets>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Ewok_Hunter, Ewok_Hunter_B, Ewok_Hunter_B, Ewok_Hunter_C, Ewok_Hunter_C</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Formation_Priority>1</Formation_Priority>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Ewok_Team</Create_Team_Type>
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
+
+	<GroundCompany Name="Naboo_Gungan_Warrior_Troop">
+		<Text_ID>TEXT_INDIGENOUS_GUNGAN_SQUAD</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gungan.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Gungan_Warrior, Gungan_Warrior, Gungan_Warrior, Gungan_Warrior Gungan_Warrior</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Gungan_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Kashyyyk_Wookie_War_Party">
+		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>72</Damage>
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior, Wookie_Warrior</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Wookie_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+		
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Population_Value>1</Population_Value>
+		
+	</GroundCompany>
+
+	<GroundCompany Name="Tatooine_Jawa_Scout_Team">
+		<Text_ID>TEXT_INDIGENOUS_JAWA_SCOUTS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_jawa.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Jawa_Scout, Jawa_Scout, Jawa_Scout, Jawa_Scout, Jawa_Scout</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Jawa_Team</Create_Team_Type>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Mon_Calamari_Civ_Company">
+		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_moncalciv.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Mon_Calamari_Civilian, Mon_Calamari_Civilian, Mon_Calamari_Civilian, Mon_Calamari_Civilian, Mon_Calamari_Civilian</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>MonCal_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Bothan_Civ_Company">
+		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Bothan_Civilian, Bothan_Civilian, Bothan_Civilian, Bothan_Civilian, Bothan_Civilian</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Bothan_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+		<GroundCompany Name="Bothan_Spy_Company">
+		<Text_ID>TEXT_INFANTRY_BOTHAN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Bothan_Spy, Bothan_Spy, Bothan_Spy</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Create_Team_Type>Bothan_Spy_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+		
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<Tactical_Build_Cost_Multiplayer>125</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		
+		
+				<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<GUI_Activated_Ability_Name>Stealth</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Expiration_Seconds>30.0</Expiration_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 64</Stealth_Color>
+				<Stealth_Transition_Time>.5</Stealth_Transition_Time>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Stealth_Ability>
+		</Abilities>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Bothan_Civ_Company_Mission">
+		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>	
+
+	<GroundCompany Name="Imperial_Guard_Company">
+		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Imperial_Elite_Guard, Imperial_Elite_Guard, Imperial_Elite_Guard, Imperial_Elite_Guard, Imperial_Elite_Guard</Company_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Imp_Guard_Team</Create_Team_Type>
+		<Score_Cost_Credits>40</Score_Cost_Credits>
+		<Is_Indigenous_Unit_Corruptible>false</Is_Indigenous_Unit_Corruptible>
+	</GroundCompany>
+
+	<GroundCompany Name="Geonosian_Civ_Company">
+		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_geonosian.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Geonosian, Geonosian, Geonosian, Geonosian, Geonosian</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Geonosian_Team</Create_Team_Type>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Sullustan_Civ_Company">
+		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_sullustan.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Sullustan_Civilian, Sullustan_Civilian, Sullustan_Civilian, Sullustan_Civilian, Sullustan_Civilian</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Sullustan_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Sandpeople_War_Party">
+		<Text_ID>TEXT_INDIG_TUSCAN_RAIDER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_sandpeople.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Hostile</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets>Tatooine</Required_Planets>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Sand_Person_Sniper_A, Sand_Person_Sniper_A, Sand_Person_Sniper_B</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Sandpeople_Team</Create_Team_Type>
+	</GroundCompany>
+
+	<GroundCompany Name="Twilek_Raiding_Party">
+		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_Twilek.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Underworld</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets>Ryloth</Required_Planets>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Twilek_Female, Twilek_Female, Twilek_Female, Twilek_Female, Twilek_Female, Twilek_Female</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Twilek_Team</Create_Team_Type>
+	</GroundCompany>
+
+
+	<GroundCompany Name="Nightsister_Indigenous_Company">
+		<LOD_Bias>1</LOD_Bias>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_ui_night_sister.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Underworld</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister, Dathomir_Night_Sister</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Nightsister_Indig_Team</Create_Team_Type>
+	</GroundCompany>
+	
+	<GroundCompany Name="Prisoner_Night_Sister_Company">
+		<LOD_Bias>1</LOD_Bias>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NIGHT_SISTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ui_night_sister.tga</Icon_Name>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>100</Damage>
+		<Autoresolve_Health>450</Autoresolve_Health>
+
+		<Affiliation>Underworld</Affiliation>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
+		<!--<Required_Planets>Dathomir</Required_Planets>-->
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+
+		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
+		<Company_Units>Prisoner_Night_Sister, Prisoner_Night_Sister, Prisoner_Night_Sister, Prisoner_Night_Sister</Company_Units>
+
+		<SFXEvent_Build_Started>UHD_Build_Unit</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Night_Sister</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Night_Sister</SFXEvent_Fleet_Move>
+
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Cheap_Bribe_Cost>50</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>100</Expensive_Bribe_Cost>
+
+		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+
+
+	</GroundCompany>
+
+	<GroundCompany Name="Noghri_Indigenous_Company">
+		<Text_ID>TEXT_INDIG_NOGHRI</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_noghri.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Noghri_Indigenous, Noghri_Indigenous, Noghri_Indigenous</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Noghri_Indig_Team</Create_Team_Type>
+	</GroundCompany>
+
+	<GroundCompany Name="Mustafarian_Indigenous_Company">
+		<Text_ID>TEXT_INDIG_MUSTAFARIAN</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Mustafarian_Indigenous, Mustafarian_Indigenous, Mustafarian_Indigenous, Mustafarian_Indigenous, Mustafarian_Indigenous,Mustafarian_Indigenous, Mustafarian_Indigenous, Mustafarian_Indigenous, Mustafarian_Indigenous</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Mustafarian_Container</Create_Team_Type>
+	</GroundCompany>
+
+	<GroundCompany Name="Mandalorian_Indigenous_Company">
+		<Text_ID>TEXT_INDIG_MANDALORIAN</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_ni_mandalorian.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Hostile</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Mandalorian_Indigenous, Mandalorian_Indigenous, Mandalorian_Indigenous, Mandalorian_Indigenous,Mandalorian_Indigenous,Mandalorian_Indigenous, Mandalorian_Indigenous, Mandalorian_Indigenous, Mandalorian_Indigenous</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Score_Cost_Credits>15</Score_Cost_Credits>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Mandalorian_Container</Create_Team_Type>
+	</GroundCompany>
+
+
+
+
+
+	<!-- Human Variant Civilian Companies -->
+
+	<GroundCompany Name="Desert_Civilian_Team_Rebel">
+		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gmale_desert.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Desert_Civ_Rebel, Desert_Civ_Rebel, Desert_Civ_Rebel, Desert_Civ_Rebel, Desert_Civ_Rebel</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Desert_Human_Civ_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Desert_Civilian_Team_Empire">
+		<Variant_Of_Existing_Type>Desert_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Desert_Civ_Empire, Desert_Civ_Empire, Desert_Civ_Empire, Desert_Civ_Empire, Desert_Civ_Empire</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Desert_Civilian_Team_Pirate">
+		<Variant_Of_Existing_Type>Desert_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Desert_Civilian_Team_Underworld">
+		<Variant_Of_Existing_Type>Desert_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate</Company_Units>
+		<Affiliation>Underworld</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Swamp_Civilian_Team_Rebel">
+		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gmale_swamp.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Swamp_Civ_A_Rebel, Swamp_Civ_A_Rebel, Swamp_Civ_B_Rebel, Swamp_Civ_C_Rebel, Swamp_Civ_C_Rebel</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Swamp_Human_Civ_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Swamp_Civilian_Team_Empire">
+		<Variant_Of_Existing_Type>Swamp_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Swamp_Civ_A_Empire, Swamp_Civ_A_Empire, Swamp_Civ_B_Empire, Swamp_Civ_C_Empire, Swamp_Civ_C_Empire</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Swamp_Civilian_Team_Pirate">
+		<Variant_Of_Existing_Type>Swamp_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Swamp_Civ_A_Pirate, Swamp_Civ_A_Pirate, Swamp_Civ_B_Pirate, Swamp_Civ_C_Pirate, Swamp_Civ_C_Pirate</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Swamp_Civilian_Team_Underworld">
+		<Variant_Of_Existing_Type>Swamp_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Swamp_Civ_A_Pirate, Swamp_Civ_A_Pirate, Swamp_Civ_B_Pirate, Swamp_Civ_C_Pirate, Swamp_Civ_C_Pirate</Company_Units>
+		<Affiliation>Underworld</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Urban_Civilian_Team_Rebel">
+		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gmale_urban.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Urban_Civ_A_Rebel, Urban_Civ_A_Rebel, Urban_Civ_B_Rebel, Urban_Civ_B_Rebel, Urban_Civ_C_Rebel</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Urban_Human_Civ_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Urban_Civilian_Team_Empire">
+		<Variant_Of_Existing_Type>Urban_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Urban_Civ_A_Empire, Urban_Civ_A_Empire, Urban_Civ_B_Empire, Urban_Civ_C_Empire, Urban_Civ_C_Empire</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Urban_Civilian_Team_Pirate">
+		<Variant_Of_Existing_Type>Urban_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Urban_Civ_A_Pirate, Urban_Civ_A_Pirate, Urban_Civ_B_Pirate, Urban_Civ_C_Pirate, Urban_Civ_C_Pirate</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Urban_Civilian_Team_Underworld">
+		<Variant_Of_Existing_Type>Urban_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Urban_Civ_A_Pirate, Urban_Civ_A_Pirate, Urban_Civ_B_Pirate, Urban_Civ_C_Pirate, Urban_Civ_C_Pirate</Company_Units>
+		<Affiliation>Underworld</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Snow_Civilian_Team_Rebel">
+		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Snow_Civ_A_Rebel, Snow_Civ_A_Rebel, Snow_Civ_A_Rebel, Snow_Civ_A_Rebel,Snow_Civ_A_Rebel </Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Create_Team_Type>Arctic_Human_Civ_Team</Create_Team_Type>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundCompany Name="Snow_Civilian_Team_Empire">
+		<Variant_Of_Existing_Type>Snow_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Snow_Civ_A_Empire, Snow_Civ_A_Empire, Snow_Civ_A_Empire, Snow_Civ_A_Empire, Snow_Civ_A_Empire</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Snow_Civilian_Team_Pirate">
+		<Variant_Of_Existing_Type>Snow_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate</Company_Units>
+		<Affiliation>Empire</Affiliation>
+	</GroundCompany>
+
+	<GroundCompany Name="Snow_Civilian_Team_Underworld">
+		<Variant_Of_Existing_Type>Snow_Civilian_Team_Rebel</Variant_Of_Existing_Type>
+		<Company_Units>Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate</Company_Units>
+		<Affiliation>Underworld</Affiliation>
+	</GroundCompany>
+
+
+
+
+
+
+
+
+
+	<GroundCompany Name="Civilian_Independent_AI_Party">
+		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gmale_urban.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets>Endor</Required_Planets>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Civilian_Independent_AI, Civilian_Independent_AI, Civilian_Independent_AI, Civilian_Independent_AI, Civilian_Independent_AI, Civilian_Independent_AI</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Create_Team_Type>Civilian_Independent_AI_Team</Create_Team_Type>
+	</GroundCompany>
+
+	<GroundCompany Name="Civilian_Urban_Usable_Party">
+		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gmale_urban.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>60</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets>Endor</Required_Planets>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Urban_Civilian_A, Urban_Civilian_A, Urban_Civilian_A, Urban_Civilian_A, Urban_Civilian_A, Urban_Civilian_A</Company_Units>
+		<Victory_Relevant> No </Victory_Relevant>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Create_Team_Type>Civilian_Urban_Usable_Team</Create_Team_Type>
+	</GroundCompany>
+
+
+
+	
+	
+
+	
+
+	<GroundCompany Name="Kashyyyk_Wookie_War_Party_Unarmed">
+		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>72</Damage>
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Wookie_Warrior_Unarmed, Wookie_Warrior_Unarmed, Wookie_Warrior_Unarmed, Wookie_Warrior_Unarmed, Wookie_Warrior_Unarmed, Wookie_Warrior_Unarmed</Company_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Create_Team_Type>Wookie_Team</Create_Team_Type>
+		<Score_Cost_Credits>5</Score_Cost_Credits>
+	</GroundCompany>
+
+	
+	<!-- USED FOR SECONDARY STRUCTURE SURVIVORS -->
+	
+	<GroundCompany Name="Empire_Prison_Survivors_01">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Ewok_Hunter, Ewok_Hunter_C, Wookie_Warrior, Wookie_Warrior, Swamp_Civilian_A, Urban_Civilian_A, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Gungan_Warrior, Gungan_Warrior, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Mon_Calamari_Civilian, Rebel_Trooper_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Jawa_Scout, Jawa_Scout, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Sand_Person_Sniper_A, Sand_Person_Sniper_B</Company_Units>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Empire_Prison_Survivors_02">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Hutt_Civilian, Hutt_Civilian, Wookie_Warrior, Bothan_Civilian, Bothan_Civilian, Bothan_Civilian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Geonosian, Geonosian, Geonosian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Twilek_Female, Rebel_Trooper_NonVictroy, Twilek_Female, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Sand_Person_Sniper_B, Sand_Person_Sniper_A, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Ewok_Hunter_B, Ewok_Hunter_C, Pirate_Soldier_NonVictroy, Urban_Civilian_A, Urban_Civilian_A, Pirate_Soldier_NonVictroy</Company_Units>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Empire_Prison_Survivors_03">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Wampa, Jawa_Scout, Wookie_Warrior, Gungan_Warrior, Gungan_Warrior, Gungan_Warrior, Rebel_Trooper_NonVictroy, Mon_Calamari_Civilian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Snow_Civilian_A, Snow_Civilian_A, Shaak, Bothan_Civilian, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Desert_Civilian_A, Jawa_Scout, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Twilek_Female, Twilek_Female, Twilek_Female</Company_Units>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+
+	</GroundCompany>
+
+	<GroundCompany Name="Geonosian_Resistors">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian</Company_Units>
+		<Icon_Name>i_button_geonosian.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+
+	<GroundCompany Name="Bothan_Resistors">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission</Company_Units>
+		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+	</GroundCompany>
+</Indigenous_Companies>

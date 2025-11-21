@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SFXEvent_Files>
+	<File>SFXEventPresets.xml</File><!--Presets must go first; Non-Preset Events come after presets-->
+	<File>SFXEventsGUI.xml</File>
+	<File>SFXEventsHUD.xml</File>
+	<File>SFXEvents.xml</File>
+	<File>SFXEventsUnits.xml</File>
+	<File>SFXEventsUnitsHeroes.xml</File>
+	<File>SFXEventsUnitsGround.xml</File>
+	<File>SFXEventsUnitsSpace.xml</File>
+	<File>SFXEventsUnitsTransports.xml</File>
+	<File>SFXEventsBuildings.xml</File>
+	<File>SFXEventsStarbases.xml</File>
+	<File>SFXEventsAmbient.xml</File>
+	<File>SFXEventsDeaths.xml</File>
+	<File>SFXEventsWeapons.xml</File>
+	<File>SFXEventsEngines.xml</File>
+	<File>SFXEventsFootsteps.xml</File>
+	<File>SFXEventsCinematics.xml</File>
+</SFXEvent_Files>
