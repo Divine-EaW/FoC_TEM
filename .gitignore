@@ -1,0 +1,46 @@
+### Dev Material ###
+# Graphics
+Data/maps2.meg
+
+# VSCode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+*.code-workspace
+
+
+
+### Windows ###
+# Thumbnail Database
+[Tt]humbs.db
+[Tt]humbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dumps
+*.stackdump
+
+# Folder Configs
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Shortcuts
+*.code-workspace
+*.lnk
+
+
+
+### Apple ###
+# macOS .DS_Store (Desktop Services Store) Files
+*.DS_Store
