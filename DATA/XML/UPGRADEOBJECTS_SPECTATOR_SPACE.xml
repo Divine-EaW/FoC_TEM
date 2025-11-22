@@ -2,18 +2,9 @@
 <UpgradeObjects>
 	<UpgradeObject Name="Spectator_T1_RS_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>75</Tactical_Build_Time_Seconds> <!--80-->
-		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_1</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type/>
-		<Next_Upgrade_Level_Type/>
-		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_rebel_station2.tga</Icon_Name>
+		<Icon_Name>i_button_r_tech_upgrade_2.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE
 		TEM_EMPTY_LINE
@@ -21,24 +12,20 @@
 		TEM_REBEL_REBELTECHLEVELUPGRADE2_COST
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_STARBASE</Text_ID>
+		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
 
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		<Abilities SubObjectList="Yes">
-			<Starbase_Upgrade_Ability Name="RS_Level_Two_Starbase_Upgrade_Effect">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
-			</Starbase_Upgrade_Ability>
-		</Abilities>
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Level_Three_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_RS_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
@@ -71,11 +58,12 @@
 		<Previous_Upgrade_Level_Type>Spectator_T1_RS_Level_Two_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Level_Four_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_RS_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
@@ -103,11 +91,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T1_RS_Level_Three_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Level_Five_Starbase_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_RS_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>140</Tactical_Build_Time_Seconds>
@@ -134,12 +123,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T1_RS_Level_Four_Starbase_Upgrade</Previous_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 		<!-- Enhanced Shielding (Level 1): Fighters gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="Spectator_T1_RS_Enhanced_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--850-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
@@ -179,12 +169,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Shielding (Level 2): Fighters and Frigates gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="Spectator_T1_RS_Enhanced_Shielding_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>775</Tactical_Build_Cost_Multiplayer> <!--2400-->
 		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
@@ -219,12 +210,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Shielding (Level 3): Capital Ships gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="Spectator_T1_RS_Enhanced_Shielding_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>360</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
@@ -259,12 +251,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 1): Fighters deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_RS_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer> <!--800-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
@@ -304,12 +297,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 2): Fighters and Frigates deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_RS_Improved_Weapons_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
@@ -347,12 +341,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 3): Fighters, Frigates and Capital Ships deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_RS_Improved_Weapons_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
@@ -387,12 +382,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T1_RS_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>275</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -464,12 +460,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
 	<UpgradeObject Name="Spectator_T1_RS_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -541,12 +538,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 1): Fighters take 25% less damage. --> <!-- UNUSED -->
 	<UpgradeObject Name="Spectator_T1_RS_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
@@ -586,12 +584,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 2): Fighters and Frigates take 25% less damage. --> <!-- UNUSED -->
 	<UpgradeObject Name="Spectator_T1_RS_Reinforced_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
@@ -642,12 +641,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 		<!-- Reinforced Armor (Level 3): Fighters and Frigates take 25% less damage. --> <!-- UNUSED -->
 	<UpgradeObject Name="Spectator_T1_RS_Reinforced_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1325</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
@@ -694,12 +694,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 1): The starbase deals 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_RS_Improved_Defenses_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -758,12 +759,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 2): The starbase deals 30% more damage. -->
 	<UpgradeObject Name="Spectator_T1_RS_Improved_Defenses_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -810,12 +812,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 3): The starbase deals 50% more damage. -->
 	<UpgradeObject Name="Spectator_T1_RS_Improved_Defenses_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -850,12 +853,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- More Garrion Units:  Adds an 2 A-Wing and 1 Y-Wing squadron to your set of free garrison units. -->
 	<UpgradeObject Name="Spectator_T1_RS_More_Garrisons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -887,11 +891,12 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="Spectator_T1_ES_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>70</Tactical_Build_Time_Seconds>
@@ -922,11 +927,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Level_Three_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_ES_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3100</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
@@ -958,11 +964,12 @@
 		<Previous_Upgrade_Level_Type>Spectator_T1_ES_Level_Two_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Level_Four_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_ES_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
@@ -990,11 +997,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T1_ES_Level_Three_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Level_Five_Starbase_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_ES_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>140</Tactical_Build_Time_Seconds>
@@ -1021,12 +1029,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T1_ES_Level_Four_Starbase_Upgrade</Previous_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 		<!-- Enhanced Reactors (Level 1): Fighters gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T1_ES_Enhanced_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer> <!--was 650-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -1065,12 +1074,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Reactors (Level 2): Frigates gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T1_ES_Enhanced_Reactors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -1122,12 +1132,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Reactors (Level 3): Capital Ships gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T1_ES_Enhanced_Reactors_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -1175,12 +1186,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 1): Corvettes take 25% less damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -1219,12 +1231,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 2): Frigates take 25% less damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Reinforced_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -1263,12 +1276,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 3): Capital Ships take 25% less damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Reinforced_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -1303,12 +1317,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T1_ES_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -1380,12 +1395,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
 	<UpgradeObject Name="Spectator_T1_ES_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -1457,12 +1473,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 1): Fighters deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -1501,12 +1518,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 2): Corvettes deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Improved_Weapons_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -1542,12 +1560,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 3): Capital Ships deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Improved_Weapons_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1275</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -1582,12 +1601,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 1): The starbase deals 15% more damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Improved_Defenses_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -1646,12 +1666,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 2): The starbase deals 30% more damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Improved_Defenses_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -1698,12 +1719,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 3): The starbase deals 50% more damage. -->
 	<UpgradeObject Name="Spectator_T1_ES_Improved_Defenses_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -1738,12 +1760,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- More Garrison Units: Adds three squadrons of TIE-Fighters and one squadron of TIE-Bombers to your set of free garrison units. -->
 	<UpgradeObject Name="Spectator_T1_ES_More_Garrisons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -1771,12 +1794,13 @@
 			</Garrison_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	<!-- Upgraded Electronics L1: Ship Fog of War reveal range increased by 25% -->
 	<UpgradeObject Name="Spectator_T1_ES_Upgraded_Electronics_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -1810,11 +1834,12 @@
 	</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="Spectator_T1_US_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
@@ -1845,11 +1870,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Next_Upgrade_Level_Type>Spectator_T1_US_Level_Three_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_US_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
@@ -1881,11 +1907,12 @@
 		<Previous_Upgrade_Level_Type>Spectator_T1_US_Level_Two_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T1_US_Level_Four_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_US_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>105</Tactical_Build_Time_Seconds>
@@ -1913,11 +1940,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T1_US_Level_Three_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Level_Five_Starbase_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T1_US_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>4200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>125</Tactical_Build_Time_Seconds>
@@ -1944,12 +1972,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T1_ES_Level_Four_Starbase_Upgrade</Previous_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Unlocks the Buzz Droids ability in skirmish play nolongerused! -->
 	<UpgradeObject Name="Spectator_T1_US_Enable_Buzz_Droids_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -1979,13 +2008,14 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	
 	<!-- Extort Cash (Level 1): Increases income by 30%. -->
 	<UpgradeObject Name="Spectator_T1_US_Extort_Cash_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -2022,13 +2052,14 @@
 		</Abilities>
 
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
 	<UpgradeObject Name="Spectator_T1_US_Extort_Cash_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -2065,13 +2096,14 @@
 		</Abilities>
 
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 	
 	<!-- Reinforced Super Structure: Space Station take 15% less damage. -->
 	<UpgradeObject Name="Spectator_T1_US_Reinforced_Structure_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -2114,13 +2146,14 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Reinforced Super Structure: Space Station take 25% less damage. -->
 
 <UpgradeObject Name="Spectator_T1_US_Reinforced_Structure_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -2163,12 +2196,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Reinforced Super Structure: Space Station take 40% less damage. -->
 	<UpgradeObject Name="Spectator_T1_US_Reinforced_Structure_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -2207,12 +2241,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Black Market Reactors (Level 1): Skipray Fighters gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T1_US_BlackMarket_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!-- 850 -->
 		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
@@ -2252,12 +2287,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Black Market Reactors Mod (Level 2): Skipray, Interceptor gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T1_US_BlackMarket_Reactors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -2297,12 +2333,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Black Market Reactors (Level 3): Skipray, Interceptor, Krayt gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T1_US_BlackMarket_Reactors_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
@@ -2338,12 +2375,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Magnetically Sealed Armor (Level 1): Starvipers deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="Spectator_T1_US_Magnetically_Sealed_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer> <!--was 1100-->
 		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
@@ -2377,12 +2415,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Magnetically Sealed Armor (Level 2): Starvipers, Crusaders deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="Spectator_T1_US_Magnetically_Sealed_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer> <!-- was 2500 -->
 		<Tactical_Build_Cost_Campaign>640</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -2416,13 +2455,14 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 
 <!-- Magnetically Sealed Armor (Level 3): Starvipers, Crusaders, Keldalbe deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="Spectator_T1_US_Magnetically_Sealed_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -2452,13 +2492,14 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 
 <!-- Carbonite Firing Coolant (Level 1): Vengence Frigates gain a 30% damage increase. -->
 	<UpgradeObject Name="Spectator_T1_US_Carbonite_Coolant_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -2498,12 +2539,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Carbonite Coolant Systems (Level 2): Vengence Frigates, Krayt Destroyers gain a 30% damage increase. -->
 	<UpgradeObject Name="Spectator_T1_US_Carbonite_Coolant_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -2542,12 +2584,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Modified Cloaking Generators (Level 1): Vengence cloaking systems last 25% longer. -->
 <UpgradeObject Name="Spectator_T1_US_Cloaking_Generator_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>460</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -2577,12 +2620,13 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 		<!-- Modified Cloaking Generators (Level 2): Vengence and PeaceBringer cloaking systems last 50% longer. -->
 <UpgradeObject Name="Spectator_T1_US_Cloaking_Generator_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>760</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -2612,12 +2656,13 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Targeting Systems (Level 1): Crusader Firing Range increased by 15% -->
 	<UpgradeObject Name="Spectator_T1_US_Targeting_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>280</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
@@ -2659,12 +2704,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Targeting Systems (Level 2): Crusader Gunship and Interceptor 4 Frigate Firing Range increased by 15% -->
 	<UpgradeObject Name="Spectator_T1_US_Targeting_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
@@ -2702,12 +2748,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Targeting Systems (Level 3): Crusader Gunship. Interceptor 4 Frigate, Kedalbe Firing Range increased by 15% -->
 	<UpgradeObject Name="Spectator_T1_US_Targeting_Systems_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -2745,6 +2792,7 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Spectator Team 2 Upgrades -->
@@ -2753,7 +2801,7 @@
 
 <UpgradeObject Name="Spectator_T2_RS_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>75</Tactical_Build_Time_Seconds> <!--80-->
@@ -2785,11 +2833,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Level_Three_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_RS_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
@@ -2822,11 +2871,12 @@
 		<Previous_Upgrade_Level_Type>Spectator_T2_RS_Level_Two_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Level_Four_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_RS_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
@@ -2854,11 +2904,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T2_RS_Level_Three_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Level_Five_Starbase_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_RS_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>140</Tactical_Build_Time_Seconds>
@@ -2884,13 +2935,14 @@
 			</Starbase_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Previous_Upgrade_Level_Type>Spectator_T2_RS_Level_Four_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 	</UpgradeObject>
 	
 		<!-- Enhanced Shielding (Level 1): Fighters gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="Spectator_T2_RS_Enhanced_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--850-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
@@ -2929,13 +2981,14 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Enhanced Shielding (Level 2): Fighters and Frigates gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="Spectator_T2_RS_Enhanced_Shielding_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>775</Tactical_Build_Cost_Multiplayer> <!--2400-->
 		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
@@ -2970,12 +3023,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Shielding (Level 3): Capital Ships gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="Spectator_T2_RS_Enhanced_Shielding_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>360</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
@@ -3010,12 +3064,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 1): Fighters deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_RS_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer> <!--800-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
@@ -3054,13 +3109,14 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 2): Fighters and Frigates deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_RS_Improved_Weapons_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
@@ -3098,13 +3154,14 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 3): Fighters, Frigates and Capital Ships deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_RS_Improved_Weapons_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
@@ -3139,12 +3196,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T2_RS_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>275</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -3216,12 +3274,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
 	<UpgradeObject Name="Spectator_T2_RS_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -3293,12 +3352,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 1): Fighters take 25% less damage. --> <!-- UNUSED -->
 	<UpgradeObject Name="Spectator_T2_RS_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
@@ -3338,12 +3398,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 2): Fighters and Frigates take 25% less damage. --> <!-- UNUSED -->
 	<UpgradeObject Name="Spectator_T2_RS_Reinforced_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
@@ -3394,12 +3455,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 		<!-- Reinforced Armor (Level 3): Fighters and Frigates take 25% less damage. --> <!-- UNUSED -->
 	<UpgradeObject Name="Spectator_T2_RS_Reinforced_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1325</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
@@ -3446,12 +3508,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 1): The starbase deals 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_RS_Improved_Defenses_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -3510,12 +3573,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 2): The starbase deals 30% more damage. -->
 	<UpgradeObject Name="Spectator_T2_RS_Improved_Defenses_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -3562,12 +3626,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 3): The starbase deals 50% more damage. -->
 	<UpgradeObject Name="Spectator_T2_RS_Improved_Defenses_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -3602,12 +3667,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- More Garrion Units:  Adds an 2 A-Wing and 1 Y-Wing squadron to your set of free garrison units. -->
 	<UpgradeObject Name="Spectator_T2_RS_More_Garrisons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -3638,12 +3704,13 @@
 			</Garrison_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="Spectator_T2_ES_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>70</Tactical_Build_Time_Seconds>
@@ -3674,11 +3741,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Level_Three_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_ES_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3100</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
@@ -3710,11 +3778,12 @@
 		<Previous_Upgrade_Level_Type>Spectator_T2_ES_Level_Two_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Level_Four_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_ES_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
@@ -3742,11 +3811,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T2_ES_Level_Three_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Level_Five_Starbase_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_ES_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>140</Tactical_Build_Time_Seconds>
@@ -3772,13 +3842,14 @@
 			</Starbase_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Previous_Upgrade_Level_Type>Spectator_T2_ES_Level_Four_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 	</UpgradeObject>
 	
 		<!-- Enhanced Reactors (Level 1): Fighters gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T2_ES_Enhanced_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer> <!--was 650-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -3817,12 +3888,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Reactors (Level 2): Frigates gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T2_ES_Enhanced_Reactors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -3874,12 +3946,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Enhanced Reactors (Level 3): Capital Ships gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T2_ES_Enhanced_Reactors_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -3926,12 +3999,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 1): Corvettes take 25% less damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -3970,12 +4044,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 2): Frigates take 25% less damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Reinforced_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4014,12 +4089,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Reinforced Armor (Level 3): Capital Ships take 25% less damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Reinforced_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -4054,12 +4130,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T2_ES_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4131,12 +4208,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
 	<UpgradeObject Name="Spectator_T2_ES_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -4208,12 +4286,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 1): Fighters deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -4252,12 +4331,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 2): Corvettes deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Improved_Weapons_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -4292,12 +4372,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Weapons (Level 3): Capital Ships deal 25% more damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Improved_Weapons_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1275</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -4332,12 +4413,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 1): The starbase deals 15% more damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Improved_Defenses_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -4396,12 +4478,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 2): The starbase deals 30% more damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Improved_Defenses_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4448,12 +4531,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Improved Defenses (Level 3): The starbase deals 50% more damage. -->
 	<UpgradeObject Name="Spectator_T2_ES_Improved_Defenses_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -4488,12 +4572,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- More Garrison Units: Adds three squadrons of TIE-Fighters and one squadron of TIE-Bombers to your set of free garrison units. -->
 	<UpgradeObject Name="Spectator_T2_ES_More_Garrisons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4521,12 +4606,13 @@
 			</Garrison_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	<!-- Upgraded Electronics L1: Ship Fog of War reveal range increased by 25% -->
 	<UpgradeObject Name="Spectator_T2_ES_Upgraded_Electronics_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -4560,11 +4646,12 @@
 	</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="Spectator_T2_US_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
@@ -4595,11 +4682,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Next_Upgrade_Level_Type>Spectator_T2_US_Level_Three_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_US_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
@@ -4631,11 +4719,12 @@
 		<Previous_Upgrade_Level_Type>Spectator_T2_US_Level_Two_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T2_US_Level_Four_Starbase_Upgrade</Next_Upgrade_Level_Type>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_US_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>3700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>105</Tactical_Build_Time_Seconds>
@@ -4663,11 +4752,12 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T2_US_Level_Three_Starbase_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>Spectator_T2_US_Level_Five_Starbase_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<UpgradeObject Name="Spectator_T2_US_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>4200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>125</Tactical_Build_Time_Seconds>
@@ -4694,12 +4784,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Previous_Upgrade_Level_Type>Spectator_T2_US_Level_Four_Starbase_Upgrade</Previous_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Unlocks the Buzz Droids ability in skirmish play nolongerused! -->
 	<UpgradeObject Name="Spectator_T2_US_Enable_Buzz_Droids_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4729,13 +4820,14 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
 	
 	<!-- Extort Cash (Level 1): Increases income by 30%. -->
 	<UpgradeObject Name="Spectator_T2_US_Extort_Cash_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -4772,13 +4864,14 @@
 		</Abilities>
 
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
 	<UpgradeObject Name="Spectator_T2_US_Extort_Cash_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4815,13 +4908,14 @@
 		</Abilities>
 
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 	
 	<!-- Reinforced Super Structure: Space Station take 15% less damage. -->
 	<UpgradeObject Name="Spectator_T2_US_Reinforced_Structure_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -4864,13 +4958,14 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Reinforced Super Structure: Space Station take 25% less damage. -->
 
 <UpgradeObject Name="Spectator_T2_US_Reinforced_Structure_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -4913,12 +5008,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Reinforced Super Structure: Space Station take 40% less damage. -->
 	<UpgradeObject Name="Spectator_T2_US_Reinforced_Structure_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -4957,12 +5053,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Black Market Reactors (Level 1): Skipray Fighters gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T2_US_BlackMarket_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!-- 850 -->
 		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
@@ -5002,13 +5099,14 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 <!-- Black Market Reactors Mod (Level 2): Skipray, Interceptor gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T2_US_BlackMarket_Reactors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -5048,12 +5146,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Black Market Reactors (Level 3): Skipray, Interceptor, Krayt gain a 25% movement speed increase. -->
 	<UpgradeObject Name="Spectator_T2_US_BlackMarket_Reactors_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
@@ -5089,12 +5188,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Magnetically Sealed Armor (Level 1): Starvipers deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="Spectator_T2_US_Magnetically_Sealed_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer> <!--was 1100-->
 		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
@@ -5128,12 +5228,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Magnetically Sealed Armor (Level 2): Starvipers, Crusaders deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="Spectator_T2_US_Magnetically_Sealed_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer> <!-- was 2500 -->
 		<Tactical_Build_Cost_Campaign>640</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -5167,13 +5268,14 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 
 <!-- Magnetically Sealed Armor (Level 3): Starvipers, Crusaders, Keldalbe deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="Spectator_T2_US_Magnetically_Sealed_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -5203,13 +5305,14 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 
 <!-- Carbonite Firing Coolant (Level 1): Vengence Frigates gain a 30% damage increase. -->
 	<UpgradeObject Name="Spectator_T2_US_Carbonite_Coolant_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
@@ -5249,12 +5352,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 <!-- Carbonite Coolant Systems (Level 2): Vengence Frigates, Krayt Destroyers gain a 30% damage increase. -->
 	<UpgradeObject Name="Spectator_T2_US_Carbonite_Coolant_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -5293,12 +5397,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Modified Cloaking Generators (Level 1): Vengence cloaking systems last 25% longer. -->
 <UpgradeObject Name="Spectator_T2_US_Cloaking_Generator_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>460</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -5328,12 +5433,13 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 		<!-- Modified Cloaking Generators (Level 2): Vengence and PeaceBringer cloaking systems last 50% longer. -->
 <UpgradeObject Name="Spectator_T2_US_Cloaking_Generator_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>760</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -5363,12 +5469,13 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Targeting Systems (Level 1): Crusader Firing Range increased by 15% -->
 	<UpgradeObject Name="Spectator_T2_US_Targeting_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>280</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
@@ -5410,12 +5517,13 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script></Lua_Script>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Targeting Systems (Level 2): Crusader Gunship and Interceptor 4 Frigate Firing Range increased by 15% -->
 	<UpgradeObject Name="Spectator_T2_US_Targeting_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
@@ -5453,12 +5561,13 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
 	<!-- Targeting Systems (Level 3): Crusader Gunship. Interceptor 4 Frigate, Kedalbe Firing Range increased by 15% -->
 	<UpgradeObject Name="Spectator_T2_US_Targeting_Systems_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -5496,6 +5605,7 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	</UpgradeObjects>
 
