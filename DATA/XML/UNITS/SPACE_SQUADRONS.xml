@@ -141,7 +141,7 @@
 		TEM_REBEL_AWING_TIME
 		TEM_REBEL_AWING_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Bomber</Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Bomber TIE_Phantom</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
@@ -1131,8 +1131,8 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>825</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -1147,9 +1147,9 @@
 		TEM_CONSORTIUM_AGGRESSORSQUADRON_SPEED
 		TEM_CONSORTIUM_AGGRESSORSQUADRON_TIME</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Interceptor Millennium_Falcon Slave_I</Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against>TIE_Phantom Millennium_Falcon Slave_I</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette Slave_I Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_Aggressor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UV_IG2000.TGA</Icon_Name>
 		<Affiliation>Underworld</Affiliation>
 		<Population_Value>1</Population_Value>
 

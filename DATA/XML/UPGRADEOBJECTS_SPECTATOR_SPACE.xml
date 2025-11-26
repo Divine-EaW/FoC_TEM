@@ -140,7 +140,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Enhanced_Shielding_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_shield1_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1
 		TEM_EMPTY_LINE
@@ -186,7 +186,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Enhanced_Shielding_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_shield2.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_shield2_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -227,7 +227,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_shield3.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_shield3_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -268,7 +268,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Improved_Weapons_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons1_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1
 		TEM_EMPTY_LINE
@@ -314,7 +314,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Improved_Weapons_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons2_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2
 		TEM_EMPTY_LINE
@@ -358,7 +358,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons3_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
@@ -399,7 +399,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		<Icon_Name>i_multi_increased_supplies1_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -477,7 +477,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		<Icon_Name>i_multi_increased_supplies2_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2
 		TEM_EMPTY_LINE
@@ -1046,7 +1046,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Enhanced_Reactors_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_reactor_space1.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_reactor_space1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1
 		TEM_EMPTY_LINE
@@ -1091,7 +1091,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Enhanced_Reactors_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_reactor_space2.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_reactor_space2_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2
 		TEM_EMPTY_LINE
@@ -1149,7 +1149,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_reactor_space3.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_reactor_space3_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -1203,7 +1203,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Reinforced_Armor_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1
 		TEM_EMPTY_LINE
@@ -1248,7 +1248,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Reinforced_Armor_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor2_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2
 		TEM_EMPTY_LINE
@@ -1293,7 +1293,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor3.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor3_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -1334,7 +1334,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		<Icon_Name>i_multi_increased_supplies1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -1412,7 +1412,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		<Icon_Name>i_multi_increased_supplies2_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2
 		TEM_EMPTY_LINE
@@ -1490,7 +1490,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Improved_Weapons_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L1
 		TEM_EMPTY_LINE
@@ -1535,7 +1535,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Improved_Weapons_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons2_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
@@ -1577,7 +1577,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons3_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
@@ -1976,7 +1976,7 @@
 	</UpgradeObject>
 
 <!-- Unlocks the Buzz Droids ability in skirmish play nolongerused! -->
-	<UpgradeObject Name="Spectator_T1_US_Enable_Buzz_Droids_Upgrade">
+	<UpgradeObject Name="Spectator_T1_US_Enable_Buzz_Droids_Upgrade_Level_1">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
@@ -1989,11 +1989,52 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_SA_BL_BUZZ_DROIDS.tga</Icon_Name>
+		<Icon_Name>I_MULTI_ABILITY_RECHARGE.TGA</Icon_Name>
 
-		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_MAGNETIC_ARMOR_L1</Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BUZZ_DROID_LAUNCHERS
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_BUZZLEVEL1_TIME
+		TEM_CONSORTIUM_BUZZLEVEL1_COST</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BUZZ_DROID_LAUNCHERS</Text_ID>
+
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="US_Buzz_Droid_Ability_Enabler">
+				<Ability_Name>Buzz_Droids_Viper</Ability_Name>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Starviper_Fighter</Applicable_Unit_Types>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+	</UpgradeObject>
+	
+			<UpgradeObject Name="Spectator_T1_US_Enable_Buzz_Droids_Upgrade_Level_2">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ABILITY_RECHARGE_LEVEL_2.TGA</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BUZZ_DROID_LAUNCHERS_LEVEL_2
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_BUZZLEVEL2_TIME
+		TEM_CONSORTIUM_BUZZLEVEL2_COST</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BUZZ_DROID_LAUNCHERS_LEVEL_2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -4788,7 +4829,7 @@
 	</UpgradeObject>
 
 <!-- Unlocks the Buzz Droids ability in skirmish play nolongerused! -->
-	<UpgradeObject Name="Spectator_T2_US_Enable_Buzz_Droids_Upgrade">
+	<UpgradeObject Name="Spectator_T2_US_Enable_Buzz_Droids_Upgrade_Level_1">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
@@ -4801,11 +4842,14 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_SA_BL_BUZZ_DROIDS.tga</Icon_Name>
+		<Icon_Name>I_MULTI_ABILITY_RECHARGE.TGA</Icon_Name>
 
-		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_MAGNETIC_ARMOR_L1</Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BUZZ_DROID_LAUNCHERS
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_BUZZLEVEL1_TIME
+		TEM_CONSORTIUM_BUZZLEVEL1_COST</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BUZZ_DROID_LAUNCHERS</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -4823,6 +4867,43 @@
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 	
+		<UpgradeObject Name="Spectator_T2_US_Enable_Buzz_Droids_Upgrade_Level_2">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ABILITY_RECHARGE_LEVEL_2.TGA</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BUZZ_DROID_LAUNCHERS_LEVEL_2
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_BUZZLEVEL2_TIME
+		TEM_CONSORTIUM_BUZZLEVEL2_COST</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BUZZ_DROID_LAUNCHERS_LEVEL_2</Text_ID>
+
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="US_Buzz_Droid_Ability_Enabler">
+				<Ability_Name>Buzz_Droids_Viper</Ability_Name>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Starviper_Fighter</Applicable_Unit_Types>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+	</UpgradeObject>
 	
 	<!-- Extort Cash (Level 1): Increases income by 30%. -->
 	<UpgradeObject Name="Spectator_T2_US_Extort_Cash_L1_Upgrade">

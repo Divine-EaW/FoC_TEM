@@ -4402,6 +4402,8 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1</Text_ID>
 		<Overlap_Test>Unit_Gray_Squadron</Overlap_Test>
+		<Min_Volume>40</Min_Volume>
+		<Max_Volume>40</Max_Volume>
 	</SFXEvent>
 		<SFXEvent Name="Unit_Horton_Damaged">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -4410,6 +4412,8 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1</Text_ID>
 		<Overlap_Test>Unit_Gray_Squadron</Overlap_Test>
+		<Min_Volume>40</Min_Volume>
+		<Max_Volume>40</Max_Volume>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Horton_Death">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -4418,6 +4422,8 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1</Text_ID>
 		<Overlap_Test>Unit_Gray_Squadron</Overlap_Test>
+		<Min_Volume>40</Min_Volume>
+		<Max_Volume>40</Max_Volume>
 	</SFXEvent>
 		<SFXEvent Name="Unit_Arvel_Death">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -4426,6 +4432,8 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1</Text_ID>
 		<Overlap_Test>Unit_Green_Squadron</Overlap_Test>
+		<Min_Volume>50</Min_Volume>
+		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
 		<SFXEvent Name="Unit_Arvel_Select">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -4434,6 +4442,8 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1</Text_ID>
 		<Overlap_Test>Unit_Green_Squadron</Overlap_Test>
+		<Min_Volume>50</Min_Volume>
+		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
 		<SFXEvent Name="Unit_Gotit_Move">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -4442,6 +4452,8 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1, TEXT_SFX_WED_SELECT_2,TEXT_SFX_WED_SELECT_3,TEXT_SFX_WED_SELECT_4</Text_ID>
 		<Overlap_Test>Unit_Green_Squadron</Overlap_Test>
+		<Min_Volume>50</Min_Volume>
+		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
 		<SFXEvent Name="unit_arvel_dogfight">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -4450,5 +4462,7 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_WED_SELECT_1, TEXT_SFX_WED_SELECT_2,TEXT_SFX_WED_SELECT_3,TEXT_SFX_WED_SELECT_4</Text_ID>
 		<Overlap_Test>Unit_Green_Squadron</Overlap_Test>
+		<Min_Volume>50</Min_Volume>
+		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
 </SFXEvents>

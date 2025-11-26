@@ -323,7 +323,7 @@
 		<Autoresolve_Health>400</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>4.5</Max_Speed>
+		<Max_Speed>5.2</Max_Speed>
 		<Min_Speed>3.0</Min_Speed>
 
 		<Formation_Priority>1</Formation_Priority>
@@ -352,7 +352,7 @@
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
 			<Recharge_Seconds>50</Recharge_Seconds>
@@ -554,6 +554,11 @@
 				TIE_Interceptor_Squadron,
 				TIE_Defender,
 				TIE_Defender_Squadron,
+				V-wing_Fighter_E,
+				V-wing_Fighter,
+				VWing_Squadron_E,
+				Aggressor_Squadron,
+				Aggressor_Fighter,
 				Z-95_Headhunter_Underworld,
 				Z95_Headhunter_Underworld_Squadron,
 				Pirate_Fighter_U,
@@ -1050,9 +1055,9 @@
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.7f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.1f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -1070,7 +1075,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>TIE_Interceptor X-wing</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_aggressor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UV_IG2000.TGA</Icon_Name>
 		<Affiliation>Underworld</Affiliation>
 
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
@@ -1082,7 +1087,7 @@
 		<Autoresolve_Health>250</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>6.1</Max_Speed>
+		<Max_Speed>6.2</Max_Speed>
 		<Min_Speed>3.8</Min_Speed>
 
 		<Formation_Priority>2</Formation_Priority>
@@ -1109,9 +1114,10 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>ION_CANNON_SHOT</Type>
-			<Recharge_Seconds>20.0</Recharge_Seconds>
+			<Recharge_Seconds>25.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
 			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
+			<Activate_SFX>Aggessor_Ion</Activate_SFX>
 <!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
@@ -1188,7 +1194,7 @@
 			<!--If you change Chase_Radius update Area_Effect_Decal_Distance in the unit ability-->
 			<Chase_Radius>300</Chase_Radius>
 			<Damage_Radius>175</Damage_Radius>
-			<Enemy_Damage_Per_Second>25</Enemy_Damage_Per_Second>
+			<Enemy_Damage_Per_Second>15</Enemy_Damage_Per_Second>
 			<Own_Damage_Per_Second>2</Own_Damage_Per_Second>
 			<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
 			<Damage_Type>Damage_Buzz_Droid</Damage_Type>

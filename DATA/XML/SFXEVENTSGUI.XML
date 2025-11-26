@@ -626,8 +626,8 @@
 	<SFXEvent Name="GUI_Buzz_Droids_SFX">
 		<Use_Preset>Preset_GUI</Use_Preset>
 		<Samples>GUI_Buzz_Droid_1.wav</Samples>
-		<Min_Volume>85</Min_Volume>
-		<Max_Volume>85</Max_Volume>
+		<Min_Volume>100</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 	</SFXEvent>
 	<SFXEvent Name="GUI_Swap_Weapons_SFX">
 		<Use_Preset>Preset_GUI</Use_Preset>

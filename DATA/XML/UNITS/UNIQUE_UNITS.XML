@@ -4137,7 +4137,7 @@
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.7f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
 			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
@@ -4946,7 +4946,6 @@
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 	<!-- Formation Info -->
 		<Formation_Priority>5</Formation_Priority>
@@ -5544,6 +5543,7 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>ION_CANNON_SHOT</Type>
+			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_NAME</Alternate_Name_Text>
 			<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROTON_CANNON_SHOT_DESCRIPTION</Alternate_Description_Text>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Y_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 		</Unit_Ability>

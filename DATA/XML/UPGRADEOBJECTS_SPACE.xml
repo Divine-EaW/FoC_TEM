@@ -588,7 +588,7 @@
 		<Next_Upgrade_Level_Type>RS_Reinforced_Armor_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_hull1.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L1
 		TEM_EMPTY_LINE
@@ -632,7 +632,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_hull2.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L2
 		TEM_EMPTY_LINE
@@ -687,7 +687,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_hull3.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor3.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -2074,37 +2074,104 @@
 	</UpgradeObject>
 
 <!-- Unlocks the Buzz Droids ability in skirmish play nolongerused! -->
-	<UpgradeObject Name="US_Enable_Buzz_Droids_Upgrade">
+	<UpgradeObject Name="US_Enable_Buzz_Droids_Upgrade_Level_1">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Next_Upgrade_Level_Type>US_Enable_Buzz_Droids_Upgrade_Level_2</Next_Upgrade_Level_Type>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ABILITY_RECHARGE.TGA</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BUZZ_DROID_LAUNCHERS
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_BUZZLEVEL1_TIME</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BUZZ_DROID_LAUNCHER</Text_ID>
+
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Enable_Buzz_Droids_Upgrade_Level_1_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories></Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Starviper_Fighter, StarViper_Team, StarViper_Squadron</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.50</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
+	</UpgradeObject>
+	
+		<UpgradeObject Name="US_Enable_Buzz_Droids_Upgrade_Level_2">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_SA_BL_BUZZ_DROIDS.tga</Icon_Name>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ABILITY_RECHARGE_LEVEL_2.TGA</Icon_Name>
+		<Tactical_Build_Prerequisites>US_Enable_Buzz_Droids_Upgrade_Level_1</Tactical_Build_Prerequisites>
+		<Previous_Upgrade_Level_Type>US_Enable_Buzz_Droids_Upgrade_Level_1</Previous_Upgrade_Level_Type>
 
-		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_MAGNETIC_ARMOR_L1</Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BUZZ_DROID_LAUNCHERS_LEVEL_2
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_BUZZLEVEL1_TIME</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BUZZ_DROID_LAUNCHER_LEVEL_2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
 		<Abilities SubObjectList="Yes">
-			<Enable_Ability Name="US_Buzz_Droid_Ability_Enabler">
-				<Ability_Name>Buzz_Droids_Viper</Ability_Name>
-				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Starviper_Fighter</Applicable_Unit_Types>
-				<Affects_All_Allies>Yes</Affects_All_Allies>
-			</Enable_Ability>
-		</Abilities>
+			<Combat_Bonus_Ability Name="Enable_Buzz_Droids_Upgrade_Level_2_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories></Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Starviper_Fighter, StarViper_Team, StarViper_Squadron, Aggressor_Fighter, Aggressor_Team, Aggressor_Squadron</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.50</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="Enable_Buzz_Droids_Upgrade_Level_2_Frigate_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories></Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Interceptor4_Frigate</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.35</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
 	</UpgradeObject>
@@ -2401,7 +2468,7 @@
 			<Combat_Bonus_Ability Name="US_BlackMarket_Reactors_L1_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Starviper_Fighter, StarViper_Team, Skipray_Blastboat, Skipray_Team, HoundsTooth</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Skipray_Blastboat, Skipray_Team, Skipray_Squadron, Crusader_Gunship, HoundsTooth</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2689,7 +2756,7 @@
 			<Combat_Bonus_Ability Name="US_Carbonite_Coolant_Systems_L2_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Vengeance_Frigate, Krayt_Class_Destroyer, The_Peacebringer</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Aggressor_Fighter, Aggressor_Team, Skipray_Blastboat, Skipray_Team, Crusader_Gunship, Vengeance_Frigate, Krayt_Class_Destroyer, The_Peacebringer</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2731,6 +2798,7 @@
 			<Battlefield_Modifier_Ability Name="US_Cloaking_Generator_L1_Upgrade_Effect">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Stealth_Duration_Multiplier>1.25</Stealth_Duration_Multiplier>
+				<Applicable_Unit_Types>Vengeance_Frigate</Applicable_Unit_Types>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>3</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -2767,6 +2835,7 @@
 			<Battlefield_Modifier_Ability Name="US_Cloaking_Generator_L2_Upgrade_Effect">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Stealth_Duration_Multiplier>1.50</Stealth_Duration_Multiplier>
+				<Applicable_Unit_Types>Vengeance_Frigate</Applicable_Unit_Types>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>3</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -2779,7 +2848,7 @@
 	<UpgradeObject Name="US_Targeting_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>280</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -2805,9 +2874,8 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L1_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Skipray_Blastboat, Skipray_Team, Interceptor4_Frigate</Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>0.20</Fire_Range_Bonus_Percentage>
-				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate</Applicable_Unit_Types>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2816,6 +2884,12 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
+		<Battlefield_Modifier_Ability Name="US_Targeting_Systems_L1_Upgrade_Bonus">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+			<Stacking_Category>3</Stacking_Category>
+		</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
@@ -2849,8 +2923,8 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L2_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Skipray_Blastboat, Skipray_Team, Interceptor4_Frigate, Vengeance_Frigate</Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>.20</Fire_Range_Bonus_Percentage>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Vengeance_Frigate</Applicable_Unit_Types>
+				<Fire_Range_Bonus_Percentage>.15</Fire_Range_Bonus_Percentage>
 				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -2893,9 +2967,9 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L3_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Skipray_Blastboat, Skipray_Team, Interceptor4_Frigate, Vengeance_Frigate, Kedalbe_Battleship</Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>.20</Fire_Range_Bonus_Percentage>
-				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Vengeance_Frigate, Kedalbe_Battleship</Applicable_Unit_Types>
+				<Fire_Range_Bonus_Percentage>.25</Fire_Range_Bonus_Percentage>
+				<FOW_Reveal_Range_Multiplier>1.25</FOW_Reveal_Range_Multiplier>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

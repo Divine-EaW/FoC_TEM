@@ -5772,6 +5772,8 @@
 	<SFXEvent Name="Unit_Buzz_Droids_Star_Viper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_SVP2901_ENG.wav U000_SVP2902_ENG.wav</Samples>
+		<Min_Volume>100</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_SVP_BUZZ_DROIDS_1, TEXT_SFX_SVP_BUZZ_DROIDS_2</Text_ID>

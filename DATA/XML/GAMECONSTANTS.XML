@@ -1143,9 +1143,9 @@
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Bomber, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Transport, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Fighter, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Rogue, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Rogue, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Rebel_Fighter_Hero, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Rebel_Fighter_Hero, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Corellian_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Buzz_Droid, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
