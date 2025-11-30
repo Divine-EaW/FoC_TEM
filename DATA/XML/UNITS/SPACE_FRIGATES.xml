@@ -190,7 +190,7 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>2150</Tactical_Build_Cost_Multiplayer> <!--2500-->
+		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer> <!--2500-->
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds> <!--18-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1489,7 +1489,7 @@
 
 		<HardPoints>
 			HP_Interceptor_Frigate_00,
-<!--			HP_Interceptor_Frigate_00B,-->
+<!-- 			HP_Interceptor_Frigate_00B, -->
 			HP_Interceptor_Frigate_01,
 			HP_Interceptor_Frigate_02
 		</HardPoints>
@@ -1622,8 +1622,8 @@
 	</Abilities>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>

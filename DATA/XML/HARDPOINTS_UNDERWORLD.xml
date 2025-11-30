@@ -1793,7 +1793,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-		<Health>350.0</Health>
+		<Health>400.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
@@ -1801,7 +1801,7 @@
 		<Model_To_Attach>UV_InterceptorIV_HP01_F.alo</Model_To_Attach>
 		<Attachment_Bone>HP01_F_Bone</Attachment_Bone>
 		<Collision_Mesh>HP01_F_COLL</Collision_Mesh>
-<!--		<Damage_Decal>HP_F_BLAST</Damage_Decal>-->
+		<Damage_Decal>HP_F_BLAST</Damage_Decal>
 		<Damage_Particles>HP01_F_EMITDAMAGE</Damage_Particles>
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_InterceptorIV_F01</Death_Breakoff_Prop>
@@ -1813,11 +1813,11 @@
 		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Full_Salvo_Weapon_Delay_Multiplier>0.4</Full_Salvo_Weapon_Delay_Multiplier>
+		<Full_Salvo_Weapon_Delay_Multiplier>0.18</Full_Salvo_Weapon_Delay_Multiplier> <!-- 0.4 -->
 	</HardPoint>
 
 	<HardPoint Name="HP_Interceptor_Frigate_01">

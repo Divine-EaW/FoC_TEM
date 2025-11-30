@@ -459,7 +459,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -537,7 +537,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -1334,7 +1334,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_ES_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1_emp.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION1_EMP.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -1394,7 +1394,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -1412,7 +1412,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2_emp.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION2_EMP.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2
 		TEM_EMPTY_LINE
@@ -1472,7 +1472,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -2094,7 +2094,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
 	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
@@ -2138,7 +2138,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
 	</UpgradeObject>
 	
 	<!-- Reinforced Super Structure: Space Station take 15% less damage. -->
@@ -3254,7 +3254,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION1_REB.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -3314,7 +3314,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -3332,7 +3332,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION2_REB.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2
 		TEM_EMPTY_LINE
@@ -3392,7 +3392,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -4188,7 +4188,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION1_EMP.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -4248,7 +4248,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -4266,7 +4266,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION2_EMP.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2
 		TEM_EMPTY_LINE
@@ -4326,7 +4326,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -4946,7 +4946,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
 	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
@@ -4990,7 +4990,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script></Lua_Script>
+		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
 	</UpgradeObject>
 	
 	<!-- Reinforced Super Structure: Space Station take 15% less damage. -->
