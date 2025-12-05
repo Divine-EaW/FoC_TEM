@@ -459,7 +459,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -537,7 +537,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -1394,7 +1394,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -1472,7 +1472,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -2094,7 +2094,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
@@ -2138,7 +2138,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 	
 	<!-- Reinforced Super Structure: Space Station take 15% less damage. -->
@@ -2994,7 +2994,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Enhanced_Shielding_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_shield1_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1
 		TEM_EMPTY_LINE
@@ -3040,7 +3040,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Enhanced_Shielding_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_shield2.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_shield2_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -3081,7 +3081,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_shield3.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_shield3_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -3122,7 +3122,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Improved_Weapons_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons1_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1
 		TEM_EMPTY_LINE
@@ -3168,7 +3168,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Improved_Weapons_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons2_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2
 		TEM_EMPTY_LINE
@@ -3213,7 +3213,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons3_reb.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
@@ -3254,7 +3254,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_RS_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_MULTI_INCREASED_PRODUCTION1_REB.TGA</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION1_REB.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -3314,7 +3314,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -3392,7 +3392,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_R</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -3901,7 +3901,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Enhanced_Reactors_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_reactor_space1.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_reactor_space1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1
 		TEM_EMPTY_LINE
@@ -3946,7 +3946,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Enhanced_Reactors_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_reactor_space2.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_reactor_space2_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2
 		TEM_EMPTY_LINE
@@ -4004,7 +4004,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_enhanced_reactor_space3.tga</Icon_Name>
+		<Icon_Name>i_multi_enhanced_reactor_space3_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -4057,7 +4057,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Reinforced_Armor_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1
 		TEM_EMPTY_LINE
@@ -4102,7 +4102,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Reinforced_Armor_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
+		<Icon_Name>I_MULTI_REINFORCED_ARMOR2_EMP.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2
 		TEM_EMPTY_LINE
@@ -4147,7 +4147,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor3.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_armor3_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -4248,7 +4248,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -4326,7 +4326,7 @@
 			</Income_Stream_Mod_Ability>-->
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-		<Lua_Script>Despawn_Mine_Upgrade_E</Lua_Script>
+		<Lua_Script></Lua_Script>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
 
@@ -4344,7 +4344,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Improved_Weapons_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons1_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L1
 		TEM_EMPTY_LINE
@@ -4389,7 +4389,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T2_ES_Improved_Weapons_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons2_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
@@ -4430,7 +4430,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
+		<Icon_Name>i_multi_improved_weapons3_emp.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
@@ -4946,7 +4946,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
@@ -4990,7 +4990,7 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Lua_Script>Despawn_Mine_Upgrade_U</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</UpgradeObject>
 	
 	<!-- Reinforced Super Structure: Space Station take 15% less damage. -->

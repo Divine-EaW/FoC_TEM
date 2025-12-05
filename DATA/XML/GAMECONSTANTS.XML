@@ -2754,8 +2754,8 @@
 	<Damage_To_Armor_Mod>Damage_StickyBomb, Shield_Tank, 0.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Scout_Bike, 1.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Transport, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Bomber, 0.9</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Fighter, 0.9</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Bomber, 0.4</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Fighter, 0.4</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Rogue, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_StickyBomb, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>

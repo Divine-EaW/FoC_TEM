@@ -161,8 +161,7 @@
 		TEM_REBEL_REBELSTATIONLEVEL2_HP
 		TEM_REBEL_REBELSTATIONLEVEL2_SHIELD
 		TEM_REBEL_REBELSTATIONLEVEL2_INCOME
-		TEM_REBEL_REBELSTATIONLEVEL2_SUPPLYDOCK
-		TEM_REBEL_REBELSTATIONLEVEL2_PERK</Encyclopedia_Text>
+		TEM_REBEL_REBELSTATIONLEVEL2_SUPPLYDOCK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>RB_STATION_02.ALO</Space_Model_Name>
@@ -957,8 +956,7 @@
 		TEM_EMPIRE_EMPIRESTATIONLEVEL2_HP
 		TEM_EMPIRE_EMPIRESTATIONLEVEL2_SHIELD
 		TEM_EMPIRE_EMPIRESTATIONLEVEL2_INCOME
-		TEM_EMPIRE_EMPIRESTATIONLEVEL2_SUPPLYDOCK
-		TEM_EMPIRE_EMPIRESTATIONLEVEL2_PERK</Encyclopedia_Text>
+		TEM_EMPIRE_EMPIRESTATIONLEVEL2_SUPPLYDOCK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>EB_STATION_02.ALO</Space_Model_Name>
@@ -1742,8 +1740,7 @@
 		TEM_CONSORTIUM_CONSORTIUMSTATIONLEVEL2_HP
 		TEM_CONSORTIUM_CONSORTIUMSTATIONLEVEL2_SHIELD
 		TEM_CONSORTIUM_CONSORTIUMSTATIONLEVEL2_INCOME
-		TEM_CONSORTIUM_CONSORTIUMSTATIONLEVEL2_SUPPLYDOCK
-		TEM_CONSORTIUM_CONSORTIUMSTATIONLEVEL2_PERK</Encyclopedia_Text>
+		TEM_CONSORTIUM_CONSORTIUMSTATIONLEVEL2_SUPPLYDOCK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>UB_02_STATION.ALO</Space_Model_Name>
@@ -2703,9 +2700,9 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_X-Wing_Squadron_Tech_2,
+				Rebel_X-Wing_Squadron,
 				Corellian_Corvette,
-				Rebel_Y-Wing_Squadron_Tech_2,
+				Y-Wing_Squadron,
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
 				Han_Solo_Team_Space_MP,
@@ -2812,9 +2809,9 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_X-Wing_Squadron_Tech_2,
+				Rebel_X-Wing_Squadron,
 				Corellian_Corvette,
-				Rebel_Y-Wing_Squadron_Tech_2,
+				Y-Wing_Squadron,
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
 				Corellian_Gunboat,
@@ -2941,9 +2938,9 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_X-Wing_Squadron_Tech_2,
+				Rebel_X-Wing_Squadron,
 				Corellian_Corvette,
-				Rebel_Y-Wing_Squadron_Tech_2,
+				Y-Wing_Squadron,
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
 				Corellian_Gunboat,
@@ -3074,9 +3071,9 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_X-Wing_Squadron_Tech_2,
+				Rebel_X-Wing_Squadron,
 				Corellian_Corvette,
-				Rebel_Y-Wing_Squadron_Tech_2,
+				Y-Wing_Squadron,
 				Corellian_Gunboat,
 				A_Wing_Squadron,
 				Marauder_Missile_Cruiser,
@@ -3270,12 +3267,12 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			    Empire_TIE_Interceptor_Squadron_Tech_2,
+			    TIE_Interceptor_Squadron,
 				TIE_Fighter_Squadron,
 				TIE_Phantom_Squadron,
 				TIE_Scout_Squadron,
 				Tartan_Patrol_Cruiser,
-				Empire_TIE_Bomber_Squadron_Tech_2,
+				TIE_Bomber_Squadron,
 				Acclamator_Assault_Ship,
 				Empire_Venator,
 <!--				Boba_Fett_Team_Space_MP,-->
@@ -3380,12 +3377,12 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			    Empire_TIE_Interceptor_Squadron_Tech_2,
+			    TIE_Interceptor_Squadron,
 				TIE_Fighter_Squadron,
 				TIE_Defender_Squadron,
 				TIE_Phantom_Squadron,
 				Tartan_Patrol_Cruiser,
-				Empire_TIE_Bomber_Squadron_Tech_2,
+				TIE_Bomber_Squadron,
 				Acclamator_Assault_Ship,
 				Empire_Venator,
 				TIE_Scout_Squadron,
@@ -3511,12 +3508,12 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			    Empire_TIE_Interceptor_Squadron_Tech_2,
+			    TIE_Interceptor_Squadron,
 				TIE_Fighter_Squadron,
 				TIE_Defender_Squadron,
 				TIE_Phantom_Squadron,
 				Tartan_Patrol_Cruiser,
-				Empire_TIE_Bomber_Squadron_Tech_2,
+				TIE_Bomber_Squadron,
 				Acclamator_Assault_Ship,
 				Empire_Venator,
 				TIE_Scout_Squadron,
@@ -3645,12 +3642,12 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			    Empire_TIE_Interceptor_Squadron_Tech_2,
+			    TIE_Interceptor_Squadron,
 				TIE_Fighter_Squadron,
 				TIE_Defender_Squadron,
 				TIE_Phantom_Squadron,
 				Tartan_Patrol_Cruiser,
-				Empire_TIE_Bomber_Squadron_Tech_2,
+				TIE_Bomber_Squadron,
 				Acclamator_Assault_Ship,
 				Empire_Venator,
 				TIE_Scout_Squadron,

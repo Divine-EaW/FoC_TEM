@@ -629,7 +629,7 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>RS_Reinforced_Armor_L1_Upgrade</Previous_Upgrade_Level_Type>
-		<Next_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type>RS_Increased_Supplies_L3_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
@@ -721,6 +721,7 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
+			
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
@@ -914,7 +915,7 @@
 			<Garrison_Upgrade_Ability Name="RS_More_Garrisons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Additional_Garrison_Units>Rebel_A-Wing_Squadron_Garrison, Rebel_A-Wing_Squadron_Garrison, Rebel_Y-Wing_Squadron_Garrison</Additional_Garrison_Units>
+				<Additional_Garrison_Units>Rebel_X-Wing_Squadron_Garrison, Rebel_A-Wing_Squadron_Garrison, Rebel_A-Wing_Squadron_Garrison, Rebel_Y-Wing_Squadron_Garrison</Additional_Garrison_Units>
 			</Garrison_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>

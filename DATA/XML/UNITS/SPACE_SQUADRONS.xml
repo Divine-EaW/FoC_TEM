@@ -1229,7 +1229,8 @@
 		TEM_CONSORTIUM_STARVIPER_HP
 		TEM_CONSORTIUM_STARVIPER_SHIELD
 		TEM_CONSORTIUM_STARVIPER_SPEED
-		TEM_CONSORTIUM_STARVIPER_TIME</Encyclopedia_Text>
+		TEM_CONSORTIUM_STARVIPER_TIME
+		TEM_CONSORTIUM_STARVIPER_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>TIE_Interceptor X-wing</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette Slave_I Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
@@ -1319,7 +1320,8 @@
 		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_HP
 		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_SHIELD
 		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_SPEED
-		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_TIME</Encyclopedia_Text>
+		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_TIME
+		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Nebulon_B_Frigate Acclamator_Assault_Ship Victory_Destroyer</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette Slave_I Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>

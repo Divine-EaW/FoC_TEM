@@ -715,7 +715,7 @@
 		<Death_SFXEvent_Start_Die>SFX_Sizemic_Detonation</Death_SFXEvent_Start_Die>
 		<AI_Combat_Power>300</AI_Combat_Power>
 		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-		<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Dropoff_Tiers>100</Projectile_Blast_Area_Dropoff_Tiers>
 		
 		<!-- detonation particle and SFX -->
 		<Projectile_Object_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Object_Detonation_Particle>
@@ -723,6 +723,36 @@
 		<Projectile_SFXEvent_Detonate/>
 
 	</Projectile>
+	
+		<Projectile Name="Proj_Fleet_Tender_Fighter_Heal">
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+        <Damage_Type> Damage_Default </Damage_Type>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Max_Speed>0.0</Max_Speed>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+        <Projectile_Category>DEFAULT</Projectile_Category>
+        <Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Lifetime>0.0</Projectile_Max_Lifetime>
+        <Projectile_Damage>0.0</Projectile_Damage>
+        <Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Projectile_SFXEvent_Detonate/>
+        <Projectile_Object_Detonation_Particle>Unit_Healed_Particles</Projectile_Object_Detonation_Particle>
+        <Projectile_Ground_Detonation_Particle>Unit_Healed_Particles</Projectile_Ground_Detonation_Particle>
+        <Projectile_Lifetime_Detonation_Particle>Unit_Healed_Particles</Projectile_Lifetime_Detonation_Particle>
+        <Projectile_Absorbed_By_Shields_Particle />
+        <AI_Combat_Power>0</AI_Combat_Power>
+        <Projectile_Instant_Heal_On_Detonation> Yes </Projectile_Instant_Heal_On_Detonation>
+        <Projectile_Instant_Heal_Duration_Frames> 30 </Projectile_Instant_Heal_Duration_Frames>
+        <Projectile_Instant_Heal_Radius> 900 </Projectile_Instant_Heal_Radius>
+        <Projectile_Instant_Heal_Spawn_Effect> Unit_Healed_Particles </Projectile_Instant_Heal_Spawn_Effect>
+        <Projectile_Instant_Heal_Targets_Category_Mask> Fighter | Bomber </Projectile_Instant_Heal_Targets_Category_Mask>
+        <Projectile_Instant_Heal_Health_Increase> 10 </Projectile_Instant_Heal_Health_Increase>
+    </Projectile>
 
 	<!-- Special space projectile to instantly detonate and reveal the map via the "FOW Reveal Ping" unit ability -->
 	<Projectile Name="Proj_Special_Space_FOW_Reveal_Ping_Blast">

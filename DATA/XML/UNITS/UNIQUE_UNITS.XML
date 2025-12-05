@@ -3667,7 +3667,7 @@
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>70</Shield_Points>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
 		<Tactical_Health>125</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -3832,7 +3832,7 @@
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>45</Shield_Points>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
 		<Tactical_Health>165</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -3971,9 +3971,10 @@
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
 				Nebulon_B_Frigate, Alliance_Assault_Frigate, MC30_Frigate, Rebel_Pirate_Frigate, Calamari_Cruiser
 			</Applicable_Unit_Types>-->
-			<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage> <!--v=0.25-->
+			<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--v=0.25-->
 			<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 			<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+			<Tactical_Build_Time_Bonus_Percentage>0.5</Tactical_Build_Time_Bonus_Percentage>
 			<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
@@ -4071,9 +4072,9 @@
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>60</Shield_Points>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
-		<Tactical_Health>100</Tactical_Health> <!--200-->
+		<Tactical_Health>110</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Damage>40</Damage>
@@ -4130,7 +4131,7 @@
 		<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
+			<!-- <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier> -->
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.45f</Mod_Multiplier>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Deactivated>
@@ -4138,7 +4139,7 @@
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.7f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
+			<!-- <Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier> -->
 			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
