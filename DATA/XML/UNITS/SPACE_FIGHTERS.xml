@@ -181,7 +181,7 @@
 			TEM_REBEL_AWING_COST
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Bomber TIE_Phantom</Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Phantom</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 
 		<Space_Model_Name>rv_AWing.ALO</Space_Model_Name>
@@ -1017,7 +1017,7 @@
 		TEM_EMPIRE_TIEPHANTOM_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Y-wing X-wing</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette Houndstooth A-Wing</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Aggressor_Fighter A-Wing</Encyclopedia_Vulnerable_To>
 
 		<Space_Model_Name>EV_TIE_PHANTOM.ALO</Space_Model_Name>
 		<Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
@@ -1209,7 +1209,7 @@
 
 	<!-- Movement Info -->
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.6</Max_Speed>
+		<Max_Speed>5.7</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
@@ -1226,7 +1226,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Fighter</Armor_Type>
-		<Tactical_Health>80</Tactical_Health>
+		<Tactical_Health>75</Tactical_Health>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
@@ -1237,9 +1237,9 @@
 
 		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>3.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.1</Projectile_Fire_Recharge_Seconds>
 
 		<Targeting_Fire_Inaccuracy>Fighter, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Bomber, 1.0</Targeting_Fire_Inaccuracy>
@@ -1930,7 +1930,7 @@
 
 	<!-- Movement Info -->
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.7</Max_Speed>
+		<Max_Speed>5.6</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
@@ -1945,10 +1945,10 @@
 
 	<!-- Statistics Info -->
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
-		<Shield_Points>30</Shield_Points>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Points>15</Shield_Points>
+		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Fighter</Armor_Type>
-		<Tactical_Health>50</Tactical_Health>
+		<Tactical_Health>65</Tactical_Health>
 		<Autoresolve_Health>80</Autoresolve_Health>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1961,12 +1961,12 @@
 		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy>Fighter, 2.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Bomber, 2.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Transport, 2.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Fighter, 1.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 1.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Transport, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 12.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Frigate, 12.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Capital, 12.0</Targeting_Fire_Inaccuracy>
@@ -2145,7 +2145,7 @@
 
 	<!-- Movement Info -->
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>4.0</Max_Speed>
+		<Max_Speed>4.5</Max_Speed>
 		<Min_Speed>2.3</Min_Speed>
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>

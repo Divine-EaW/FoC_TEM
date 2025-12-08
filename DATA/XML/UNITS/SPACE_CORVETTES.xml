@@ -1176,7 +1176,7 @@
 
 	<!-- Statistics Info -->
 		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
-		<Shield_Points>500</Shield_Points>
+		<Shield_Points>550</Shield_Points>
 		<Shield_Refresh_Rate>12</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Tartan</Armor_Type>
 		<Tactical_Health>800</Tactical_Health>

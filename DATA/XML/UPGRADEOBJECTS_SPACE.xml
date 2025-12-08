@@ -136,7 +136,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer> <!--850-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -383,6 +383,60 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
 	</UpgradeObject>
+	
+	<UpgradeObject Name="RS_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--was 650-->
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ENHANCED_REACTOR_SPACE1_REB.TGA</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_REACTORS_L1
+		TEM_EMPTY_LINE
+		TEM_REBEL_ENHANCEDREACTORSLEVEL1_TIME</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L1</Text_ID>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types> Rogue_Squadron_Space_Container, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, X_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing, Green_Squadron_Container, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
+	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="RS_Increased_Supplies_L1_Upgrade">
@@ -580,7 +634,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -605,7 +659,7 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.18</Health_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
@@ -624,7 +678,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>41</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RS_Reinforced_Armor_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -648,7 +702,7 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Nebulon_B_Frigate, Corellian_Corvette</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.18</Health_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
@@ -890,7 +944,7 @@
 	<UpgradeObject Name="RS_More_Garrisons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -1089,7 +1143,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer> <!--was 650-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1144,7 +1198,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Enhanced_Reactors_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1212,7 +1266,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Enhanced_Reactors_L2_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1277,7 +1331,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1320,7 +1374,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Reinforced_Armor_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1363,7 +1417,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>1150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Reinforced_Armor_L2_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1390,6 +1444,49 @@
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>Display_SpectatorUpgrades</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="ES_Enhanced_Shielding_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--850-->
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L1
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_IMPROVEDSHIELDINGLEVEL1_TIME
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_SHIELDING_L1</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="ES_Enhanced_Shielding_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Tartan_Patrol_Cruiser, Acclamator_Assault_Ship</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -1556,7 +1653,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1579,7 +1676,7 @@
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>TIE_Interceptor, TIE_Fighter, TIE_Phantom, TIE_Interceptor, TIE_Bomber, Z-95_Headhunter_Empire, V-wing_Fighter_E, Pirate_Fighter_E, Tartan_Patrol_Cruiser</Applicable_Unit_Types>
+				<Applicable_Unit_Types>TIE_Interceptor, TIE_Fighter, TIE_Phantom, TIE_Interceptor, TIE_Bomber, Z-95_Headhunter_Empire, V-wing_Fighter_E, Pirate_Fighter_E, Tartan_Patrol_Cruiser, Empire_Venator</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1912,7 +2009,7 @@
 	<UpgradeObject Name="ES_Upgraded_Electronics_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -1937,7 +2034,7 @@
 	<Abilities SubObjectList="Yes">
 		<Battlefield_Modifier_Ability Name="US_Upgraded_Electronics_L1_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
-			<FOW_Reveal_Range_Multiplier>1.25</FOW_Reveal_Range_Multiplier>
+			<FOW_Reveal_Range_Multiplier>1.35</FOW_Reveal_Range_Multiplier>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Stacking_Category>3</Stacking_Category>
 		</Battlefield_Modifier_Ability>
@@ -2385,7 +2482,7 @@
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.35</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -2875,7 +2972,7 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L1_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, HoundsTooth</Applicable_Unit_Types>
 				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -2924,7 +3021,7 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L2_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Vengeance_Frigate</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Vengeance_Frigate, HoundsTooth</Applicable_Unit_Types>
 				<Fire_Range_Bonus_Percentage>.15</Fire_Range_Bonus_Percentage>
 				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
@@ -2968,7 +3065,7 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L3_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Vengeance_Frigate, Kedalbe_Battleship</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Crusader_Gunship, HoundsTooth, Interceptor4_Frigate, Vengeance_Frigate, Kedalbe_Battleship</Applicable_Unit_Types>
 				<Fire_Range_Bonus_Percentage>.25</Fire_Range_Bonus_Percentage>
 				<FOW_Reveal_Range_Multiplier>1.25</FOW_Reveal_Range_Multiplier>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>

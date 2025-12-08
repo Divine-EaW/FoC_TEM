@@ -48,10 +48,16 @@
 <!-- Empire fighter containers to fix squadron speed upgrade bug -->
 	<Container Name="TIE_Scout_Squadron_Container">
 		<Text_ID>TEXT_TIE_SCOUT_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_TIESCOUT_HP
+		TEM_EMPIRE_TIESCOUT_SHIELD
+		TEM_EMPIRE_TIESCOUT_SPEED
+		TEM_EMPIRE_TIESCOUT_TIME
+		TEM_EMPIRE_TIESCOUT_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Y-wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>A-Wing Crusader_Gunship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Millennium_Falcon A-Wing Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name> <!-- Need a dummy model to attach healing ability to -->
 		<Icon_Name>i_button_tie_scout.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
@@ -111,7 +117,15 @@
 
 	<Container Name="TIE_Fighter_Squadron_Container">
 		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_FIGHTER
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_TIEFIGHTER_HP
+		TEM_EMPIRE_TIEFIGHTER_SHIELD
+		TEM_EMPIRE_TIEFIGHTER_SPEED
+		TEM_EMPIRE_TIEFIGHTER_TIME
+		TEM_EMPIRE_TIEFIGHTER_COST
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>X-wing Corellian_Corvette Crusader_Gunship</Encyclopedia_Vulnerable_To>
@@ -158,10 +172,16 @@
 
 	<Container Name="TIE_Phantom_Squadron_Container">
 		<Text_ID>TEXT_TIE_PHANTOM_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_PHANTOM</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_PHANTOM
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_TIEPHANTOM_HP
+		TEM_EMPIRE_TIEPHANTOM_SHIELD
+		TEM_EMPIRE_TIEPHANTOM_SPEED
+		TEM_EMPIRE_TIEPHANTOM_TIME
+		TEM_EMPIRE_TIEPHANTOM_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Y-wing X-wing</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette A-Wing</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Aggressor_Fighter A-Wing</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
 
@@ -222,7 +242,13 @@
 
 	<Container Name="TIE_Interceptor_Squadron_Container">
 		<Text_ID>TEXT_TIE_INTERCEPTOR_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_TIEINTERCEPTOR_HP
+		TEM_EMPIRE_TIEINTERCEPTOR_SHIELD
+		TEM_EMPIRE_TIEINTERCEPTOR_SPEED
+		TEM_EMPIRE_TIEINTERCEPTOR_TIME
+		TEM_EMPIRE_TIEINTERCEPTOR_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Starviper_Fighter X-wing</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette Crusader_Gunship Buzz_Droids</Encyclopedia_Vulnerable_To>
@@ -238,7 +264,7 @@
 		<Autoresolve_Health>300</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.6</Max_Speed>
+		<Max_Speed>5.7</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 
 		<Formation_Priority>1</Formation_Priority>
@@ -269,10 +295,16 @@
 
 	<Container Name="TIE_Bomber_Squadron_Container">
 		<Text_ID>TEXT_TIE_BOMBER_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_TIEBOMBER_HP
+		TEM_EMPIRE_TIEBOMBER_SHIELD
+		TEM_EMPIRE_TIEBOMBER_SPEED
+		TEM_EMPIRE_TIEBOMBER_TIME
+		TEM_EMPIRE_TIEBOMBER_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette X-wing Starviper_Fighter</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Nebulon_B_Frigate Interceptor4_Frigate Vengeance_Frigate</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>X-wing Starviper_Fighter Corellian_Corvette</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
 
@@ -435,10 +467,16 @@
 
 	<Container Name="X_Wing_Squadron_Container">
 		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING
+		TEM_EMPTY_LINE
+		TEM_REBEL_XWING_HP
+		TEM_REBEL_XWING_SHIELD
+		TEM_REBEL_XWING_SPEED
+		TEM_REBEL_XWING_TIME
+		TEM_REBEL_XWING_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber TIE_Prototype</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Broadside_Class_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Skipray_Blastboat</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
 
@@ -487,10 +525,18 @@
 	
 	<Container Name="A_Wing_Squadron_Container">
 		<Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_A_WING
+			TEM_EMPTY_LINE
+			TEM_REBEL_AWING_HP
+			TEM_REBEL_AWING_SHIELD
+			TEM_REBEL_AWING_SPEED
+			TEM_REBEL_AWING_TIME
+			TEM_REBEL_AWING_COST
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Fighter Skipray_Blastboat TIE_Bomber</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Phantom</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
 
@@ -591,10 +637,16 @@
 	
 		<Container Name="Green_Squadron_Container">
 		<Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GREEN_SQUADRON
+		TEM_EMPTY_LINE
+		TEM_REBEL_GREENSQUADRON_HP
+		TEM_REBEL_GREENSQUADRON_SHIELD
+		TEM_REBEL_GREENSQUADRON_SPEED
+		TEM_REBEL_GREENSQUADRON_TIME
+		TEM_REBEL_GREENSQUADRON_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Fighter Skipray_Blastboat TIE_Bomber</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Tie_Interceptor Slave_I Houndstooth</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_arvel_crynyd.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
 
@@ -692,9 +744,17 @@
 	
 	<Container Name="Gray_Squadron_Container">
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_Y_WING
+			TEM_EMPTY_LINE
+			TEM_REBEL_YWING_HP
+			TEM_REBEL_YWING_SHIELD
+			TEM_REBEL_YWING_SPEED
+			TEM_REBEL_YWING_TIME
+			TEM_REBEL_YWING_COST
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship</Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against>Acclamator_Assault_Ship Victory_Destroyer Star_Destroyer</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_horton.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
@@ -751,7 +811,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Slave_I Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_y_wing.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
 
@@ -844,6 +904,7 @@
 		<Unit_Ability>
 			<Type>ION_CANNON_SHOT</Type>
 			<Recharge_Seconds>30.0</Recharge_Seconds>
+			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROTON_NAME</Alternate_Name_Text>
 			<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROTON_CANNON_SHOT_DESCRIPTION</Alternate_Description_Text>
 			<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
 			<Projectile_Types_Override>Proj_Ship_Proton_Torpedo_Light</Projectile_Types_Override>
@@ -994,10 +1055,15 @@
 	
 	<Container Name="Rogue_Squadron_Space_Container">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON
+		TEM_EMPTY_LINE
+		TEM_REBEL_ROGUESQUADRON_HP
+		TEM_REBEL_ROGUESQUADRON_SHIELD
+		TEM_REBEL_ROGUESQUADRON_SPEED
+		TEM_REBEL_ROGUESQUADRON_TIME</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Broadside_Class_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Tie_Interceptor TIE_Bomber Starviper_Fighter</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
 
@@ -1055,9 +1121,9 @@
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.7f</Mod_Multiplier>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.8f</Mod_Multiplier>
 			<!-- <Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier> -->
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	1.35f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -1071,10 +1137,16 @@
 	
 		<Container Name="Aggressor_Team">
 		<Text_ID>TEXT_TIE_AGGRESSOR_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_AGGRESSOR</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AGGRESSOR
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_AGGRESSORSQUADRON_HP
+		TEM_CONSORTIUM_AGGRESSORSQUADRON_SHIELD
+		TEM_CONSORTIUM_AGGRESSORSQUADRON_SPEED
+		TEM_CONSORTIUM_AGGRESSORSQUADRON_TIME
+		TEM_CONSORTIUM_AGGRESSORSQUADRON_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Interceptor X-wing</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>TIE_Phantom Millennium_Falcon Slave_I</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Slave_I Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_UV_IG2000.TGA</Icon_Name>
 		<Affiliation>Underworld</Affiliation>
 
@@ -1134,10 +1206,16 @@
 	
 	<Container Name="StarViper_Team">
 		<Text_ID>TEXT_TIE_STARVIPER_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_STARVIPER</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STARVIPER
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_STARVIPER_HP
+		TEM_CONSORTIUM_STARVIPER_SHIELD
+		TEM_CONSORTIUM_STARVIPER_SPEED
+		TEM_CONSORTIUM_STARVIPER_TIME
+		TEM_CONSORTIUM_STARVIPER_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>TIE_Interceptor X-wing</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Slave_I Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_uv_starviper.tga</Icon_Name>
 		<Affiliation>Underworld</Affiliation>
 
@@ -1150,7 +1228,7 @@
 		<Autoresolve_Health>250</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.7</Max_Speed>
+		<Max_Speed>5.6</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 
 		<Formation_Priority>2</Formation_Priority>
@@ -1208,10 +1286,15 @@
 <!-- For speed upgrade bugfix -->
 	<Container Name="Skipray_Team">
 		<Text_ID>TEXT_UNIT_SKIPRAY_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY
+		TEM_EMPTY_LINE
+		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_HP
+		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_SHIELD
+		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_SPEED
+		TEM_CONSORTIUM_SKIPRAYBLASTBOAT_TIME</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Calamari_Cruiser Star_Destroyer Victory_Destroyer</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Calamari_Cruiser Star_Destroyer Acclamator_Assault_Ship</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Slave_I Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_skipray.tga</Icon_Name>
 		<Affiliation>Underworld</Affiliation>
 
@@ -1224,7 +1307,7 @@
 		<Autoresolve_Health>200</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>4.0</Max_Speed>
+		<Max_Speed>4.5</Max_Speed>
 		<Min_Speed>2.3</Min_Speed>
 
 		<Formation_Priority>2</Formation_Priority>

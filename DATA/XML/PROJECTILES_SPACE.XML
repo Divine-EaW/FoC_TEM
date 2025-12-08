@@ -715,7 +715,7 @@
 		<Death_SFXEvent_Start_Die>SFX_Sizemic_Detonation</Death_SFXEvent_Start_Die>
 		<AI_Combat_Power>300</AI_Combat_Power>
 		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-		<Projectile_Blast_Area_Dropoff_Tiers>100</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
 		
 		<!-- detonation particle and SFX -->
 		<Projectile_Object_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Object_Detonation_Particle>

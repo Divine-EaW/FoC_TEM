@@ -141,7 +141,7 @@
 		TEM_REBEL_AWING_TIME
 		TEM_REBEL_AWING_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Bomber TIE_Phantom</Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against>TIE_Interceptor Slave_I TIE_Phantom</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Slave_I Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<Affiliation>Rebel</Affiliation>
@@ -745,7 +745,7 @@
 		TEM_EMPIRE_TIEPHANTOM_COST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Y-wing X-wing</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette A-Wing</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Aggressor_Fighter A-Wing</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
 		<Population_Value>1</Population_Value>
@@ -1389,8 +1389,8 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>

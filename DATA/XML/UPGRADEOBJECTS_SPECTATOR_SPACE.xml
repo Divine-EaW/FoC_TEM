@@ -384,6 +384,61 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
+	
+	<UpgradeObject Name="Spectator_T1_RS_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--was 650-->
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ENHANCED_REACTOR_SPACE1_REB_SPEC.TGA</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_REACTORS_L1
+		TEM_EMPTY_LINE
+		TEM_REBEL_ENHANCEDREACTORSLEVEL1_TIME
+		TEM_REBEL_ENHANCEDREACTORSLEVEL1_COST</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L1</Text_ID>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types> Rogue_Squadron_Space_Container, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, X_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing, Green_Squadron_Container, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script></Lua_Script>
+	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T1_RS_Increased_Supplies_L1_Upgrade">
@@ -399,7 +454,7 @@
 		<Next_Upgrade_Level_Type>Spectator_T1_RS_Increased_Supplies_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1_reb.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION1_REB.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1
 		TEM_EMPTY_LINE
@@ -477,7 +532,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2_reb.tga</Icon_Name>
+		<Icon_Name>I_MULTI_INCREASED_PRODUCTION2_REB.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2
 		TEM_EMPTY_LINE
@@ -1319,6 +1374,50 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
+	
+	<UpgradeObject Name="Spectator_T1_ES_Enhanced_Shielding_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--850-->
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_shield1_Emp_Spec.tga</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L1
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_IMPROVEDSHIELDINGLEVEL1_TIME
+		TEM_EMPIRE_IMPROVEDSHIELDINGLEVEL1_COST
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_SHIELDING_L1</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="ES_Enhanced_Shielding_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Tartan_Patrol_Cruiser, Acclamator_Assault_Ship</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script></Lua_Script>
+	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T1_ES_Increased_Supplies_L1_Upgrade">
@@ -1811,7 +1910,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_BOMBARDMENT_USE_UPGRADE.TGA</Icon_Name>
+		<Icon_Name>I_MULTI_UPGRADED_ELECTRONICS.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_UPGRADED_ELECTRONICS
 		TEM_EMPTY_LINE
@@ -3239,6 +3338,61 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
+	
+	<UpgradeObject Name="Spectator_T2_RS_Enhanced_Reactors_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--was 650-->
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_ENHANCED_REACTOR_SPACE1_REB_SPEC.TGA</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_REACTORS_L1
+		TEM_EMPTY_LINE
+		TEM_REBEL_ENHANCEDREACTORSLEVEL1_TIME
+		TEM_REBEL_ENHANCEDREACTORSLEVEL1_COST</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L1</Text_ID>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Fighter_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types> Rogue_Squadron_Space_Container, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, X_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing, Green_Squadron_Container, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script></Lua_Script>
+	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T2_RS_Increased_Supplies_L1_Upgrade">
@@ -4173,6 +4327,50 @@
 		<CategoryMask>Upgrade</CategoryMask>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 	</UpgradeObject>
+	
+<UpgradeObject Name="Spectator_T2_ES_Enhanced_Shielding_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer> <!--850-->
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type/>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_shield1_Emp_Spec.tga</Icon_Name>
+
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L1
+		TEM_EMPTY_LINE
+		TEM_EMPIRE_IMPROVEDSHIELDINGLEVEL1_TIME
+		TEM_EMPIRE_IMPROVEDSHIELDINGLEVEL1_COST
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_SHIELDING_L1</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="ES_Enhanced_Shielding_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types>Tartan_Patrol_Cruiser, Acclamator_Assault_Ship</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script></Lua_Script>
+	</UpgradeObject>
 
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="Spectator_T2_ES_Increased_Supplies_L1_Upgrade">
@@ -4664,7 +4862,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_BOMBARDMENT_USE_UPGRADE.TGA</Icon_Name>
+		<Icon_Name>I_MULTI_UPGRADED_ELECTRONICS.TGA</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_UPGRADED_ELECTRONICS
 		TEM_EMPTY_LINE

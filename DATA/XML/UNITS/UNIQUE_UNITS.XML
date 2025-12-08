@@ -3667,7 +3667,7 @@
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>70</Shield_Points>
-		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
 		<Tactical_Health>125</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -3746,7 +3746,7 @@
 		<Combat_Bonus_Ability Name="Horton_Combat_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
-			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing </Applicable_Unit_Types>
+			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types>
 <!--			<Applicable_Unit_Types>
 				X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing,
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
@@ -3832,7 +3832,7 @@
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>45</Shield_Points>
-		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
 		<Tactical_Health>165</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -3965,7 +3965,7 @@
 		<Combat_Bonus_Ability Name="Arvel_Combat_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
-			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing, Y-Wing_Squadron, Rebel_X-Wing_Squadron, A_Wing_Squadron, B-Wing_Squadron, Y_Wing_Squadron_Container, X_Wing_Squadron_Container, A_Wing_Squadron_Container</Applicable_Unit_Types>
+			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types>
 <!--			<Applicable_Unit_Types>
 				X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing,
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
@@ -4072,9 +4072,9 @@
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>60</Shield_Points>
-		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
-		<Tactical_Health>110</Tactical_Health> <!--200-->
+		<Tactical_Health>100</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Damage>40</Damage>
@@ -4138,9 +4138,9 @@
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.7f</Mod_Multiplier>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.8f</Mod_Multiplier>
 			<!-- <Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier> -->
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	1.35f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -4149,32 +4149,32 @@
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
-	<Abilities SubObjectList="Yes">
+<!-- 	<Abilities SubObjectList="Yes">
 		<Combat_Bonus_Ability Name="Wedge_Combat_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
-			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing </Applicable_Unit_Types>
-<!--			<Applicable_Unit_Types>
+			<Applicable_Unit_Types> Rogue_Squadron_Space_Container, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, X_Wing_Squadron_Container, Y-Wing, Y_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing, Gray_Squadron_Container, Green_Squadron_Container, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types>
+			<Applicable_Unit_Types>
 				X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing,
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
 				Nebulon_B_Frigate, Alliance_Assault_Frigate, MC30_Frigate, Rebel_Pirate_Frigate, Calamari_Cruiser
-			</Applicable_Unit_Types>-->
-			<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--v=0.25-->
+			</Applicable_Unit_Types>
+			<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 			<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 			<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 			<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-			<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>0</Stacking_Category>
 		</Combat_Bonus_Ability>
-	</Abilities>
+	</Abilities> -->
 	<Lua_Script>X-Wing</Lua_Script>
 	</UniqueUnit>
 
 
 	<!-- Rogue Two: Zev Senesca -->
 	<UniqueUnit Name="Rogue_2_XWing">
-		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_02</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Radar_Icon_Name>tem_i_radar_fighter.tga</Radar_Icon_Name>
@@ -4193,7 +4193,7 @@
 
 	<!-- Rogue Four: Derek Klivian -->
 	<UniqueUnit Name="Rogue_4_XWing">
-		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_04</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Radar_Icon_Name>tem_i_radar_fighter.tga</Radar_Icon_Name>
@@ -4212,7 +4212,7 @@
 
 	<!-- Rogue Seven: Kasan Moor -->
 	<UniqueUnit Name="Rogue_7_XWing">
-		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_07</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Radar_Icon_Name>tem_i_radar_fighter.tga</Radar_Icon_Name>
@@ -4251,7 +4251,7 @@
 
 	<!-- Rogue Eleven: Tenk Lenso -->
 	<UniqueUnit Name="Rogue_11_XWing">
-		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_11</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Radar_Icon_Name>tem_i_radar_fighter.tga</Radar_Icon_Name>
