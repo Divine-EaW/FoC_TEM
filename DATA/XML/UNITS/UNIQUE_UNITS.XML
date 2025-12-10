@@ -3652,7 +3652,7 @@
 		<Custom_Footprint_Radius>15.0</Custom_Footprint_Radius>
 		
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>4.0</Max_Speed>
+		<Max_Speed>3.3</Max_Speed>
 		<Min_Speed>2.2</Min_Speed>
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
@@ -3746,7 +3746,7 @@
 		<Combat_Bonus_Ability Name="Horton_Combat_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
-			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types>
+			<Applicable_Unit_Types> X-Wing, X_Wing_Squadron_Container, Y-Wing, Y_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing</Applicable_Unit_Types>
 <!--			<Applicable_Unit_Types>
 				X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing,
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
@@ -3836,6 +3836,20 @@
 		<Armor_Type>Armor_Rogue</Armor_Type>
 		<Tactical_Health>165</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+			<!-- Movement Info -->
+		<MovementClass>Space</MovementClass>
+		<Max_Speed>5.2</Max_Speed>
+		<Min_Speed>3.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Lift>4</Max_Lift>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Damage>40</Damage>
 
@@ -3965,7 +3979,7 @@
 		<Combat_Bonus_Ability Name="Arvel_Combat_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
-			<Applicable_Unit_Types> X-Wing, Y-Wing, B-Wing, A-Wing, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types>
+			<Applicable_Unit_Types> X-Wing, X_Wing_Squadron_Container, Y-Wing, Y_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing</Applicable_Unit_Types>
 <!--			<Applicable_Unit_Types>
 				X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing,
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
@@ -4071,10 +4085,10 @@
 		<Scale_Factor>0.7</Scale_Factor>
 
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
-		<Shield_Points>60</Shield_Points>
+		<Shield_Points>40</Shield_Points>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Rogue</Armor_Type>
-		<Tactical_Health>100</Tactical_Health> <!--200-->
+		<Tactical_Health>120</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Damage>40</Damage>
@@ -4149,17 +4163,18 @@
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
-<!-- 	<Abilities SubObjectList="Yes">
+ 	<Abilities SubObjectList="Yes">
 		<Combat_Bonus_Ability Name="Wedge_Combat_Bonus">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
-			<Applicable_Unit_Types> Rogue_Squadron_Space_Container, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, X_Wing_Squadron_Container, Y-Wing, Y_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing, Gray_Squadron_Container, Green_Squadron_Container, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types>
-			<Applicable_Unit_Types>
+			<Applicable_Unit_Types> X-Wing, X_Wing_Squadron_Container, Y-Wing, Y_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing </Applicable_Unit_Types>
+			<!-- <Applicable_Unit_Types> Rogue_Squadron_Space_Container, Wedge_XWing_Rogue, Rogue_2_XWing, X-Wing, Rogue_4_XWing, Rogue_7_XWing, Rogue_10_XWing, Rogue_11_XWing, X_Wing_Squadron_Container, Y-Wing, Y_Wing_Squadron_Container, A_Wing_Squadron_Container, B-Wing, B_Wing_Squadron_Container, A-Wing, Gray_Squadron_Container, Green_Squadron_Container, Arvel_AWing_Green, Green_2_AWing, Green_3_AWing, Green_4_AWing, Green_5_AWing, Horton_YWing_Gray, Gray_2_YWing, Gray_3_YWing, Gray_4_YWing </Applicable_Unit_Types> -->
+<!-- 			<Applicable_Unit_Types>
 				X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing,
 				Rebel_Pirate_IPV, Corellian_Corvette, Corellian_Gunboat, Marauder_Missile_Cruiser,
 				Nebulon_B_Frigate, Alliance_Assault_Frigate, MC30_Frigate, Rebel_Pirate_Frigate, Calamari_Cruiser
-			</Applicable_Unit_Types>
-			<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+			</Applicable_Unit_Types> -->
+			<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
 			<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 			<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 			<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
@@ -4167,7 +4182,7 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>0</Stacking_Category>
 		</Combat_Bonus_Ability>
-	</Abilities> -->
+	</Abilities>
 	<Lua_Script>X-Wing</Lua_Script>
 	</UniqueUnit>
 

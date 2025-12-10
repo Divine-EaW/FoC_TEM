@@ -414,7 +414,7 @@
 			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -3368,7 +3368,7 @@
 			<Combat_Bonus_Ability Name="RS_Enhanced_Reactors_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWingWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Applicable_Unit_Types>Nebulon_B_Frigate, Y-Wing, Y_Wing_Squadron_Container, Gray_Squadron_Container, Horton_YWing_Gray, Gray_2_YWing, Gray_3_YWing, Gray_4_YWing</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

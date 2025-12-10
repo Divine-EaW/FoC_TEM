@@ -659,7 +659,7 @@
 		<Autoresolve_Health>300</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.6</Max_Speed>
+		<Max_Speed>5.2</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 
 		<Formation_Priority>1</Formation_Priority>
@@ -768,7 +768,7 @@
 		<Autoresolve_Health>200</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>3.8</Max_Speed>
+		<Max_Speed>3.3</Max_Speed>
 		<Min_Speed>2.2</Min_Speed>
 
 		<Formation_Priority>2</Formation_Priority>
